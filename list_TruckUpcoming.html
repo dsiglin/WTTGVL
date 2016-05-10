@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<!-- /**
+ * Main Where The Truck Open Truck List
+ *
+ * @author dave siglin
+ */ -->
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	
+	<link href="css/reset_WTT.css" rel="stylesheet" type="text/css" />
+	<link href="css/truck_EntryList.css" rel="stylesheet" type="text/css" />
+	<link href="css/footers.css" rel="stylesheet" type="text/css" />
+	<link href="css/InputsAnimations.css" rel="stylesheet" type="text/css" />
+	<link href="css/navButtons.css" rel="stylesheet" type="text/css" />
+		
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name = "format-detection" content = "telephone=no">
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-74771800-3', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+</head>
+
+<body>
+<!-- FOOTER -->
+<section class="truck-ListOpen-FooterContainer">
+	<div class="truck-ListOpen-FooterSearchContainer">
+		<form class="truck-ListOpen-FooterSearch">
+			<span><input type="text" style="text-transform:uppercase" class="truck-ListOpen-FooterSearchInput" placeholder="SEARCH BY TRUCK NAME"></span>
+		</form>
+	</div>
+	<button type="button" class="truck-ListOpen-FooterFilterContainer">
+		<div class="truck-ListOpen-FooterFilterText">
+			FILTERS
+		</div>
+	</button>
+	<button type="button" class="truck-ListOpen-FooterNavMenuContainer">
+		<div class="truck-ListOpen-FooterNavMenuText">
+			NAV
+		</div>
+	</button>
+</section>
+<!-- /FOOTER -->
+
+<!-- NAV POP UP -->
+<div class="truck-ListOpen-FooterNavMenuPopUpContainer" id="NavMenuPopUp">
+	<div class="nav-WittySayingContainer">
+		<div class="number-TrucksListedText">
+			This is where the<Br>
+			rubber meets the road!
+		</div>
+	</div>
+	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
+		<a href="WTT.html" class="truck-ListOpen-FooterFilterPopUp-FilterContainerInner" style="text-transform:uppercase">
+			<div class="button-WhatsComingUpText">
+				Home
+			</div>
+		</a>
+	</div>
+	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
+		<a href="list_TruckOpen.html" class="truck-ListOpen-FooterFilterPopUp-FilterContainerInner" style="text-transform:uppercase">
+			<div class="button-WhatsComingUpText">
+				What&#8217;s Nearby
+			</div>
+		</a>
+	</div>
+	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
+		<a href="about.html" class="truck-ListOpen-FooterNavMenuPopUp-NavContainerInner">
+			<div class="truck-ListOpen-FooterNavMenuPopUp-NavText" style="text-transform:uppercase">
+				About where the truck
+			</div>
+		</a>
+	</div>
+	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
+		<a href="truckloginregister.html" class="truck-ListOpen-FooterNavMenuPopUp-NavContainerInner">
+			<div class="truck-ListOpen-FooterNavMenuPopUp-NavText" style="text-transform:uppercase">
+				Truck Login / Register
+			</div>
+		</a>
+	</div>
+</div>
+<!-- /NAV POP UP -->
+
+<!-- FILTER POP UP -->
+<div class="truck-ListOpen-FooterFilterPopUpContainer" id="FilterMenuPopUp">
+	<div class="truck-ListOpen-FooterFilterPopUp-FilterContainerOuter">
+		<div class="truck-ListOpen-FooterFilterPopUp-FilterContainerInner">
+			<div class="truck-ListOpen-FooterFilterPopUp-FilterText">
+			SORT BY CLOSEST FIRST
+			</div>
+		</div>
+	</div>
+	<div class="truck-ListOpen-FooterFilterPopUp-FilterContainerOuter">
+		<div class="truck-ListOpen-FooterFilterPopUp-FilterContainerInner">
+			<div class="truck-ListOpen-FooterFilterPopUp-FilterText">
+			SORT BY FARTHEST FIRST
+			</div>
+		</div>
+	</div>
+	<div class="truck-ListOpen-FooterFilterPopUp-FilterContainerOuter">
+		<div class="truck-ListOpen-FooterFilterPopUp-FilterContainerInner">
+			<div class="truck-ListOpen-FooterFilterPopUp-FilterText">
+			SORT BY CLOSING SOONEST
+			</div>
+		</div>
+	</div>
+	<div class="truck-ListOpen-FooterFilterPopUp-FilterContainerOuter">
+		<div class="truck-ListOpen-FooterFilterPopUp-FilterContainerInner">
+			<div class="truck-ListOpen-FooterFilterPopUp-FilterText">
+			SORT BY CLOSEST LAST
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /FILTER POP UP -->
+
+<div class="body-mobilewrapper">
+<div class="truck-List">
+<div class="number-TrucksListedContainer">
+	<div class="number-TrucksListedText">
+		Good things come<Br>
+		to those who wait.
+	</div>
+</div>
+	<section class="truck-ListEntryUpcoming">
+	<div class="truck-ListEntryUpcoming-UpperHalf">
+		<a href="profile_TruckCustomerUpcoming.html" class="truck-ListEntry-NameContainer">
+			<h1 class="truck-ListEntry-NameText" style="text-transform:uppercase">
+				Bazaar BBQ
+			</h1>
+			<h2 class="truck-ListEntry-DescriptionText">
+				Middle-Eastern BBQ
+			</h2>
+		</a>
+	</div>
+	<div class="truck-ListEntry-LowerHalf">
+		<div class="truck-ListEntry-ButtonsContainer">
+			<a href="http://thoroughfarefoodtruck.com/menu/" target="_blank" class="truck-ListEntry-ButtonsMenuContainer">
+				<h3 class="truck-ListEntry-ButtonsMenuText">
+				MENU
+				</h3>
+			</a>
+			<a href="profile_TruckCustomerUpcoming.html" class="truck-ListEntry-ButtonsProfileContainer">
+				<h3 class="truck-ListEntry-ButtonProfileText">
+				PROFILE
+				</h3>
+			</a>
+			<a href="https://www.google.com/maps/dir/Coffee+Underground,+East+Coffee+Street,+Greenville,+SC/Methodical+Coffee,+101+N+Main+St,+Greenville,+SC+29601/@34.8516118,-82.4011364,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x885831d1edde8ccb:0x6161602b529d8b!2m2!1d-82.3982977!2d34.851629!1m5!1m1!1s0x885831d04b758631:0x5c7bb3ec1a1275f5!2m2!1d-82.3995977!2d34.8519691!3e2" target="_blank" class="truck-ListEntry-ButtonsDirectionsContainer">
+				<dh3 class="truck-ListEntry-ButtonDirectionsText">
+				DIRECTIONS
+				</h3>
+			</a>
+		</div>
+		<div class="truck-ListEntryUpcoming-InfoContainer">
+			<div class="truck-ListEntryUpcoming-InfoMilesContainer">
+			<h4 class="truck-ListEntry-InfoMilesDistanceText">5.75<span class="truck-ListEntry-InfoMilesUnitText">mi</span></h4>
+			</div>
+			<div class="truck-ListEntryUpcoming-InfoTimeContainer">
+			<h4 class="truck-ListEntry-InfoTimeText"><span class="truck-ListEntry-InfoTimeTilText">til</span>12:45<span class="truck-ListEntry-InfoTimeAMPMText">AM</span></h4>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section class="truck-ListEntryUpcoming">
+	<div class="truck-ListEntryUpcoming-UpperHalf">
+		<a href="profile_TruckCustomerUpcoming.html" class="truck-ListEntry-NameContainer">
+			<h1 class="truck-ListEntry-NameText" style="text-transform:uppercase">
+				Gastronomic Meltdown
+			</h1>
+			<h2 class="truck-ListEntry-DescriptionText">
+				Radioactive Real Food
+			</h2>
+		</a>
+	</div>
+	<div class="truck-ListEntry-LowerHalf">
+		<div class="truck-ListEntry-ButtonsContainer">
+			<a href="http://thoroughfarefoodtruck.com/menu/" target="_blank" class="truck-ListEntry-ButtonsMenuContainer">
+				<h3 class="truck-ListEntry-ButtonsMenuText">
+				MENU
+				</h3>
+			</a>
+			<a href="profile_TruckCustomerUpcoming.html" class="truck-ListEntry-ButtonsProfileContainer">
+				<h3 class="truck-ListEntry-ButtonProfileText">
+				PROFILE
+				</h3>
+			</a>
+			<a href="https://www.google.com/maps/dir/Coffee+Underground,+East+Coffee+Street,+Greenville,+SC/Methodical+Coffee,+101+N+Main+St,+Greenville,+SC+29601/@34.8516118,-82.4011364,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x885831d1edde8ccb:0x6161602b529d8b!2m2!1d-82.3982977!2d34.851629!1m5!1m1!1s0x885831d04b758631:0x5c7bb3ec1a1275f5!2m2!1d-82.3995977!2d34.8519691!3e2" target="_blank" class="truck-ListEntry-ButtonsDirectionsContainer">
+				<dh3 class="truck-ListEntry-ButtonDirectionsText">
+				DIRECTIONS
+				</h3>
+			</a>
+		</div>
+		<div class="truck-ListEntryUpcoming-InfoContainer">
+			<div class="truck-ListEntryUpcoming-InfoMilesContainer">
+			<h4 class="truck-ListEntry-InfoMilesDistanceText">5.75<span class="truck-ListEntry-InfoMilesUnitText">mi</span></h4>
+			</div>
+			<div class="truck-ListEntryUpcoming-InfoTimeContainer">
+			<h4 class="truck-ListEntry-InfoTimeText"><span class="truck-ListEntry-InfoTimeTilText">til</span>12:45<span class="truck-ListEntry-InfoTimeAMPMText">AM</span></h4>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section class="truck-ListEntryUpcoming">
+	<div class="truck-ListEntryUpcoming-UpperHalf">
+		<a href="profile_TruckCustomerUpcoming.html" class="truck-ListEntry-NameContainer">
+			<h1 class="truck-ListEntry-NameText" style="text-transform:uppercase">
+				Deep Fried Pies
+			</h1>
+			<h2 class="truck-ListEntry-DescriptionText">
+				The Pride Of The South
+			</h2>
+		</a>
+	</div>
+	<div class="truck-ListEntry-LowerHalf">
+		<div class="truck-ListEntry-ButtonsContainer">
+			<a href="http://thoroughfarefoodtruck.com/menu/" target="_blank" class="truck-ListEntry-ButtonsMenuContainer">
+				<h3 class="truck-ListEntry-ButtonsMenuText">
+				MENU
+				</h3>
+			</a>
+			<a href="profile_TruckCustomerUpcoming.html" class="truck-ListEntry-ButtonsProfileContainer">
+				<h3 class="truck-ListEntry-ButtonProfileText">
+				PROFILE
+				</h3>
+			</a>
+			<a href="https://www.google.com/maps/dir/Coffee+Underground,+East+Coffee+Street,+Greenville,+SC/Methodical+Coffee,+101+N+Main+St,+Greenville,+SC+29601/@34.8516118,-82.4011364,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x885831d1edde8ccb:0x6161602b529d8b!2m2!1d-82.3982977!2d34.851629!1m5!1m1!1s0x885831d04b758631:0x5c7bb3ec1a1275f5!2m2!1d-82.3995977!2d34.8519691!3e2" target="_blank" class="truck-ListEntry-ButtonsDirectionsContainer">
+				<dh3 class="truck-ListEntry-ButtonDirectionsText">
+				DIRECTIONS
+				</h3>
+			</a>
+		</div>
+		<div class="truck-ListEntryUpcoming-InfoContainer">
+			<div class="truck-ListEntryUpcoming-InfoMilesContainer">
+			<h4 class="truck-ListEntry-InfoMilesDistanceText">5.75<span class="truck-ListEntry-InfoMilesUnitText">mi</span></h4>
+			</div>
+			<div class="truck-ListEntryUpcoming-InfoTimeContainer">
+			<h4 class="truck-ListEntry-InfoTimeText"><span class="truck-ListEntry-InfoTimeTilText">til</span>12:45<span class="truck-ListEntry-InfoTimeAMPMText">AM</span></h4>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section class="truck-ListEntryUpcoming">
+	<div class="truck-ListEntryUpcoming-UpperHalf">
+		<a href="profile_TruckCustomerUpcoming.html" class="truck-ListEntry-NameContainer">
+			<h1 class="truck-ListEntry-NameText" style="text-transform:uppercase">
+				Gumball Alley
+			</h1>
+			<h2 class="truck-ListEntry-DescriptionText">
+				Beat&#8217;em Up Gumballs
+			</h2>
+		</a>
+	</div>
+	<div class="truck-ListEntry-LowerHalf">
+		<div class="truck-ListEntry-ButtonsContainer">
+			<a href="http://thoroughfarefoodtruck.com/menu/" target="_blank" class="truck-ListEntry-ButtonsMenuContainer">
+				<h3 class="truck-ListEntry-ButtonsMenuText">
+				MENU
+				</h3>
+			</a>
+			<a href="profile_TruckCustomerUpcoming.html" class="truck-ListEntry-ButtonsProfileContainer">
+				<h3 class="truck-ListEntry-ButtonProfileText">
+				PROFILE
+				</h3>
+			</a>
+			<a href="https://www.google.com/maps/dir/Coffee+Underground,+East+Coffee+Street,+Greenville,+SC/Methodical+Coffee,+101+N+Main+St,+Greenville,+SC+29601/@34.8516118,-82.4011364,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x885831d1edde8ccb:0x6161602b529d8b!2m2!1d-82.3982977!2d34.851629!1m5!1m1!1s0x885831d04b758631:0x5c7bb3ec1a1275f5!2m2!1d-82.3995977!2d34.8519691!3e2" target="_blank" class="truck-ListEntry-ButtonsDirectionsContainer">
+				<dh3 class="truck-ListEntry-ButtonDirectionsText">
+				DIRECTIONS
+				</h3>
+			</a>
+		</div>
+		<div class="truck-ListEntryUpcoming-InfoContainer">
+			<div class="truck-ListEntryUpcoming-InfoMilesContainer">
+			<h4 class="truck-ListEntry-InfoMilesDistanceText">5.75<span class="truck-ListEntry-InfoMilesUnitText">mi</span></h4>
+			</div>
+			<div class="truck-ListEntryUpcoming-InfoTimeContainer">
+			<h4 class="truck-ListEntry-InfoTimeText"><span class="truck-ListEntry-InfoTimeTilText">til</span>12:45<span class="truck-ListEntry-InfoTimeAMPMText">AM</span></h4>
+			</div>
+		</div>
+	</div>
+	</section>
+	<a href="javascript:javascript:history.go(-1)" class="button-RoundBackContainer">
+		<div class="button-RoundBackContainerText">
+		&lt;
+		</div>
+	</a>
+</div>
+
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

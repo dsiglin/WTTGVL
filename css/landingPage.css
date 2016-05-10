@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+/* FOOTER FOR OPEN TRUCK LIST */
+
+/*html {
+	height: 100%;
+}*/
+
+body {
+	height: 100vh;
+}
+
+.container-LandingPageBody {
+
+	/*overflow: hidden;*/
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-box-justify-content: center;
+	-moz-box-justify-content: center;
+	-ms-flex-justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+
+    width: 100%;
+    max-width: 600px;
+    min-width: 320px;
+    height: auto;
+    min-height: 98vh;
+    padding: 0 0 100px 0;
+    margin: 0 auto;
+}
+
+
+.logo_WTT {
+	height: 150px;
+	width: 95%;
+	background-image: url("../img/WTT-Logo-dusk.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom center;
+	margin: 0 auto 16px;
+
+/*	-webkit-animation-name: fadeInDown;
+	-moz-animation-name: fadeInDown;
+	-ms-animation-name: fadeInDown;
+	-o-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	animation-duration: 1s;*/
+
+	-webkit-filter: drop-shadow(0px 3px 4px #101216);
+	-moz-filter: drop-shadow(0px 3px 4px #101216);
+	-o-filter: drop-shadow(0px 3px 4px #101216);
+	-ms-filter: drop-shadow(0px 3px 4px #101216);
+	filter: drop-shadow(0px 3px 4px #101216);
+}
+
+/* FOOTER HACKS */
+.truck-ListOpen-FooterSearchContainer {
+	background-color: #2C2E35;
+}
+
+button.truck-ListOpen-FooterFilterContainer {
+	background-color: #2C2E35;
+	box-shadow: 0px 0px 0px #101216;
+}
+
+.truck-ListOpen-FooterSearchContainer input{
+	height: 100%;
+	background-color: #2C2E35;
+	border-right: 0px solid transparent;
+}
+
+.truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter {
+-webkit-animation-name: fadeInUpBig;
+-moz-animation-name: fadeInUpBig;
+-ms-animation-name: fadeInUpBig;
+-o-animation-name: fadeInUpBig;
+animation-name: fadeInUpBig;
+
+-webkit-animation-duration: 1s;
+-moz-animation-duration: 1s;
+-ms-animation-duration: 1s;
+-o-animation-duration: 1s;
+animation-duration: 1s;
+}
