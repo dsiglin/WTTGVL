@@ -8,20 +8,18 @@
  * @author dave siglin
  */ -->
 
-	<link href="css/jquery.mobile.custom.structure.css" rel="stylesheet" type="text/css" />
-	<link href="css/jquery.mobile.custom.theme.css" rel="stylesheet" type="text/css" />
-    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script> 
-    <script src="js/jquery.mobile.custom.js"></script>
-	<!-- Include the jQuery Mobile library -->
 	
 	
 	
 	<link href="css/reset_WTT.css" rel="stylesheet" type="text/css" />
-	<link href="css/footers.css" rel="stylesheet" type="text/css" />
+	<!--<link href="css/footers.css" rel="stylesheet" type="text/css" />
 	<link href="css/InputsAnimations.css" rel="stylesheet" type="text/css" />
 	<link href="css/navButtons.css" rel="stylesheet" type="text/css" />
-	<link href="css/landingPage.css" rel="stylesheet" type="text/css" />
-		
+	<link href="css/landingPage.css" rel="stylesheet" type="text/css" />-->
+
+       <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">
+       <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script> 
+       <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name = "format-detection" content = "telephone=no">
@@ -115,19 +113,14 @@
 </div>
 <!-- /NAV POP UP -->
 
-<!-- FILTER POP UP -->
-<!-- /FILTER POP UP -->
 
 
-
-
-
-<section class="body-mobilewrapper container-LandingPageBody">
+<section data-role="page" class="body-mobilewrapper container-LandingPageBody">
 	<div class="logo_WTT">
 	</div>
 
 	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
-		<a href="list_TruckOpen.html" class="truck-ListOpen-FooterFilterPopUp-FilterContainerInner" data-transition="flip">
+		<a href="list_TruckOpen.html" class="truck-ListOpen-FooterFilterPopUp-FilterContainerInner" data-transition="slide">
 			<div class="button-WhatsComingUpText">
 				WHAT&#8217;S NEARBY
 			</div>
