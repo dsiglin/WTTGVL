@@ -68,7 +68,8 @@ a.button-RoundBackContainer:focus {
 	left: 0;
 	right: 0;
 	height: 48px;
-	background-color: #2C2E35;
+	/*background-color: #2C2E35;*/
+	background-color: #333131;
 	z-index: 100;
 	display: -webkit-box;
 	display: -moz-box;
@@ -76,8 +77,8 @@ a.button-RoundBackContainer:focus {
 	display: -webkit-flex;
 	display: flex;
 	/* box-shadow: 0px -2px 5px #101216; */
-	border-top: 6px solid #2C2E35;
-	border-bottom: 6px solid #2C2E35;
+	border-top: 6px solid #333131;
+	border-bottom: 6px solid #333131;
 	max-width: 600px;
 	margin: auto;
 	min-width: 320px;

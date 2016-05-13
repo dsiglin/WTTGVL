@@ -65,11 +65,13 @@ body {
 
 /* FOOTER HACKS */
 .truck-ListOpen-FooterSearchContainer {
-	background-color: #2C2E35;
+	/*background-color: #2C2E35;*/
+	background-color: #333131;
 }
 
 button.truck-ListOpen-FooterFilterContainer {
-	background-color: #2C2E35;
+	/*background-color: #2C2E35;*/
+	background-color: #333131;
 	box-shadow: 0px 0px 0px #101216;
 }
 
