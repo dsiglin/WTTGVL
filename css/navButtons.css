@@ -174,7 +174,7 @@
 }
 
 @media (max-width: 400px) {
-.number-TrucksListedText {
+.truck-ListEntryOpen-NotFoundText, .number-TrucksListedText {
     font-size: 2rem;
 }
 }
@@ -183,7 +183,7 @@
 .truck-ListOpen-FooterFilterPopUp-FilterText {
 	font-size: .85rem;
 }
-.number-TrucksListedText {
+.truck-ListEntryOpen-NotFoundText, .number-TrucksListedText {
     font-size: 1.75rem;
 }
 }
