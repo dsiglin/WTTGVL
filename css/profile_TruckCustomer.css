@@ -81,12 +81,12 @@
 }
 
 .image-TruckPhotoText {
-	font-family: 'Playfair Display', sans-serif;
+	font-family: 'Lobster', sans-serif;
 	font-style: italic;
 	font-size: 1.5rem;
 	color: #B6D3D8;
 	line-height: 60%;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 
 	-webkit-box-align-items: center;
 	-moz-box-align-items: center;
@@ -316,7 +316,7 @@ a.buttonprofile-SocialLink:active {
 
 
 
-.profile-About-ContainerOuter, .profile-Announcement-ContainerOuter, .profile-Schedule-ContainerOuter {
+.register-ThankYouContainer, .profile-About-ContainerOuter, .profile-Announcement-ContainerOuter, .profile-Schedule-ContainerOuter {
 	width: 100%;
     height: auto;
 /*    padding: 0 0 16px 0;*/
@@ -348,6 +348,10 @@ a.buttonprofile-SocialLink:active {
     justify-content: center;
 }
 
+.register-ThankYouContainerOuter {
+	margin: 48px auto 106px auto;
+}
+
 .profile-About-ContainerInner, .profile-Announcement-ContainerInner, .profile-Schedule-ContainerInner{
 	width: 50%;
 	height: auto;
@@ -371,7 +375,7 @@ a.buttonprofile-SocialLink:active {
 	line-height: 100%;
 	height: auto;
 	color: #B6D3D8;
-	font-family: 'Playfair Display', sans-serif;
+	font-family: 'Lobster', sans-serif;
 	display: block;
 	letter-spacing: 1px;
 	margin: 0 10% 16px 10%;
@@ -382,6 +386,20 @@ a.buttonprofile-SocialLink:active {
 
 .profile-ScheduleTextTitleUpcoming {
 	border-bottom: 4px solid #596069;
+}
+
+.register-ThankYouText {
+	font-style: italic;
+	font-size: 3rem;
+	line-height: 100%;
+	height: auto;
+	color: #B6D3D8;
+	font-family: 'Lobster', sans-serif;
+	display: block;
+	letter-spacing: 1px;
+	margin: 0 auto 16px auto;
+	padding: 8px 3vw 8px 0;
+	width: 80%;
 }
 
 .profile-AnouncementTextHeader, .profile-ScheduleTextHeader, .profile-ScheduleTextDate {
