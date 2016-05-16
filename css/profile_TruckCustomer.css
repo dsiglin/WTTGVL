@@ -44,7 +44,7 @@ body {
 }
 
 .image-TruckPhotoContainerUpcoming {
-	border-bottom: 4px solid #596069;
+	border-bottom: 4px solid #434651;
 }
 
 .profile-FadeInUpSmall {
@@ -82,7 +82,7 @@ body {
 }
 
 .image-TruckPhotoTextContainerUpcoming {
-	background-color: #596069;
+	background-color: #434651;
 }
 
 .image-TruckPhotoText {
@@ -187,7 +187,7 @@ body {
 }
 
 .profile_TimeDistanceDividerUpcoming {
-	border-bottom: 4px solid #596069;
+	border-bottom: 4px solid #434651;
 }
 
 
@@ -262,7 +262,7 @@ a.buttonprofile-SocialLink {
 	-webkit-box-shadow: 0px 3px 4px #101216;
 	box-shadow: 0px 3px 4px #101216;
 	margin: 0 8px 0 8px;
-	background-color: #333131;
+	background-color: transparent;
 	position: relative;
 }
 
@@ -390,7 +390,7 @@ a.buttonprofile-SocialLink:active {
 }
 
 .profile-ScheduleTextTitleUpcoming {
-	border-bottom: 4px solid #596069;
+	border-bottom: 4px solid #434651;
 }
 
 .register-ThankYouText {
@@ -417,7 +417,7 @@ a.buttonprofile-SocialLink:active {
     margin: 16px 0 8px 0;
     /*letter-spacing: 3px;*/
     padding: 8px;
-    background-color: #333131;
+    background-color: #434651;
 }
 
 
@@ -495,7 +495,7 @@ button.truck-ListOpen-FooterFilterContainer {
 
 .truck-ListOpen-FooterSearchContainer input{
 	height: 100%;
-	background-color: #2C2E35;
+	background-color: #333131;
 	border-right: 0px solid transparent;
 }
 

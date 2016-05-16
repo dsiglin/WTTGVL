@@ -1,3 +1,8 @@
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400italic);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
 * {
 	margin: 0;
 	padding: 0;
@@ -10,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 100%;
-  background-color: #394046;
+  background-color: #33393e;
   /*background-color: #212328;*/
   /* display: flex; */
   /* justify-content: center; */

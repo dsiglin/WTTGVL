@@ -149,8 +149,8 @@ a.button-RoundBackContainer:focus {
 
 .truck-ListOpen-FooterSearchContainer input[type=text]{
 	height: 100%;
-	background-color: #2C2E35;
-	border-right: 2px solid #353840;
+	background-color: transparent;
+	border-right: 2px solid #33393e;
 }
 
 button.truck-ListOpen-FooterNavMenuContainer, button.truck-ListOpen-FooterFilterContainer {
@@ -237,7 +237,7 @@ button.truck-ListOpen-FooterNavMenuContainer:active, button.truck-ListOpen-Foote
 	left: 0;
 	right: 0;
 	width: 100%;
-	background-color: #2C2E35;
+	background-color: #333131;
 	z-index: 99;
 	overflow: hidden;
 
