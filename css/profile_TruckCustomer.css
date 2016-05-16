@@ -14,31 +14,23 @@ body {
 	background-image: url('../img/roadkill.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-
-/*	-webkit-animation-name: fadeInDown;
-	-moz-animation-name: fadeInDown;
-	-ms-animation-name: fadeInDown;
-	-o-animation-name: fadeInDown;
-	animation-name: fadeInDown;
-	-webkit-animation-duration: .5s;
-	-moz-animation-duration: .5s;
-	-ms-animation-duration: .5s;
-	-o-animation-duration: .5s;
-	animation-duration: .5s;*/
-
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-
+	-webkit-box-justify-content: flex-end;
+	-moz-box-justify-content: flex-end;
+	-ms-flex-justify-content: flex-end;
+	-webkit-justify-content: flex-end;
 	justify-content: flex-end;
-
 	align-items: center;
-
+	-webkit-box-flex-direction: column;
+	-moz-box-flex-direction: column;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
 	flex-direction: column;
 	margin: 0 0 16px 0;
-
 	position: relative;
 	z-index: 50;
 }
@@ -58,7 +50,6 @@ body {
 	-ms-animation-duration: .5s;
 	-o-animation-duration: .5s;
 	animation-duration: .5s;
-
 }
 
 .image-TruckPhotoContainerTint {
@@ -92,15 +83,12 @@ body {
 	color: #B6D3D8;
 	line-height: 60%;
 	letter-spacing: .5px;
-
 	-webkit-box-align-items: center;
 	-moz-box-align-items: center;
 	-ms-flex-align-items: center;
 	-webkit-align-items: center;
 	align-items: center;
-
 	vertical-align: middle;
-
 	height: auto;
 	padding: 8px 0 8px 0;
 }
@@ -111,19 +99,14 @@ body {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-
 	width: 100%;
     height: auto;
-    /*padding: 0 0 0 16px;*/
     margin: 0 auto 8px;
-
 	-webkit-box-justify-content: center;
 	-moz-box-justify-content: center;
 	-ms-flex-justify-content: center;
 	-webkit-justify-content: center;
 	justify-content: center;
-
-
 	-webkit-box-flex-direction: column;
 	-moz-box-flex-direction: column;
 	-ms-flex-direction: column;
@@ -137,30 +120,24 @@ body {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-
 	width: 100%;
-	/*float: left;*/
 	height: auto;
 	margin: 8px auto 32px;
-
 	-webkit-box-justify-content: center;
 	-moz-box-justify-content: center;
 	-ms-flex-justify-content: center;
 	-webkit-justify-content: center;
 	justify-content: center;
-
 	-webkit-box-flex-direction: row;
 	-moz-box-flex-direction: row;
 	-ms-flex-direction: row;
 	-webkit-flex-direction: row;
 	flex-direction: row;
-
 	-webkit-align-items: center;
 	-moz-align-items: center;
 	-o-align-items: center;
 	-ms-align-items: center;
 	align-items: center;
-
 }
 
 .profile-TimeDistanceContainer {
@@ -208,13 +185,15 @@ body {
 	-webkit-align-items: center;
 	 align-items: center; 
 	 padding-bottom: 4px;
-	
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-
+	-webkit-box-justify-content: center;
+	-moz-box-justify-content: center;
+	-ms-flex-justify-content: center;
+	-webkit-justify-content: center;
 	justify-content: center;
 }
 
@@ -224,15 +203,12 @@ body {
 	color: #adadad;
 	line-height: 60%;
 	letter-spacing: 1px;
-
 	-webkit-box-align-items: center;
 	-moz-box-align-items: center;
 	-ms-flex-align-items: center;
 	-webkit-align-items: center;
 	align-items: center;
-
 	vertical-align: middle;
-
 	font-size: .85rem;
 	margin-left: 3px;
 }
@@ -298,7 +274,6 @@ a.buttonprofile-SocialLink:active {
     height: auto;
     border-bottom: 2px solid #333131;
     margin: 64px auto 64px auto;
-
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -311,7 +286,6 @@ a.buttonprofile-SocialLink:active {
     height: auto;
     border-bottom: 2px solid #333131;
     margin: 0 auto 16px auto;
-
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -324,28 +298,23 @@ a.buttonprofile-SocialLink:active {
 .register-ThankYouContainer, .profile-About-ContainerOuter, .profile-Announcement-ContainerOuter, .profile-Schedule-ContainerOuter {
 	width: 100%;
     height: auto;
-/*    padding: 0 0 16px 0;*/
     margin: 48px auto 0px auto;
     text-align: center;
-
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-
     -webkit-box-flex-direction: row;
     -moz-box-flex-direction: row;
     -ms-flex-flex-direction: row;
     -webkit-flex-direction: row;
     flex-direction: row;
-
     -webkit-box-flex-wrap: wrap;
     -moz-box-flex-wrap: wrap;
     -ms-flex-flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
-
     -webkit-box-justify-content: center;
     -moz-box-justify-content: center;
     -ms-flex-justify-content: center;
@@ -420,8 +389,6 @@ a.buttonprofile-SocialLink:active {
     background-color: #434651;
 }
 
-
-
 .profile-AboutTextDescription, .profile-AnnouncementTextDescription, .profile-AnnouncementTextPlace, .profile-ScheduleTextTime, .profile-ScheduleTextPlace{
 	font-style: italic;
     font-size: 1rem;
@@ -467,7 +434,6 @@ a.buttonprofile-SocialLink:active {
 
 .truck-ListEntry-NameText {
     font-size: 2rem;
-    /* width: 100%; */
     -webkit-align-self: flex-start;
     -moz-align-self: flex-start;
     -ms-align-self: flex-start;
@@ -505,7 +471,6 @@ button.truck-ListOpen-FooterFilterContainer {
 -ms-animation-name: fadeInUp;
 -o-animation-name: fadeInUp;
 animation-name: fadeInUp;
-
 -webkit-animation-duration: 1s;
 -moz-animation-duration: 1s;
 -ms-animation-duration: 1s;

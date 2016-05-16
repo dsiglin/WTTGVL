@@ -146,7 +146,6 @@ input[type=button], input[type=button]:hover {
   cursor: pointer;
 }
 
-
 form.truck-ListOpen-FooterSearch{
   width: 100%;
 }
@@ -159,4 +158,6 @@ input, select, textarea {
     transform: scale(1,1.25);
 }
 
-body: display: block;
+body {
+  display: block;
+}

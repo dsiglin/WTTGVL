@@ -16,77 +16,17 @@ blockquote {
     quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-@-webkit-keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 25%, 0);
-    transform: translate3d(0, 25%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 25%, 0);
-    transform: translate3d(0, 25%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@-webkit-keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -25%, 0);
-    transform: translate3d(0, -25%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -25%, 0);
-    transform: translate3d(0, -25%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
 .container-LandingPageBody {
-
-	/*overflow: hidden;*/
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-
 	-webkit-box-justify-content: center;
 	-moz-box-justify-content: center;
 	-ms-flex-justify-content: center;
 	-webkit-justify-content: center;
 	justify-content: center;
-
     width: 100%;
     max-width: 600px;
     min-width: 320px;
@@ -104,19 +44,16 @@ blockquote {
 	background-size: contain;
 	background-position: bottom center;
 	margin: 0 auto 16px;
-
 	-webkit-animation-name: fadeInDown;
 	-moz-animation-name: fadeInDown;
 	-ms-animation-name: fadeInDown;
 	-o-animation-name: fadeInDown;
 	animation-name: fadeInDown;
-
 	-webkit-animation-duration: 1s;
 	-moz-animation-duration: 1s;
 	-ms-animation-duration: 1s;
 	-o-animation-duration: 1s;
 	animation-duration: 1s;
-
 	-webkit-filter: drop-shadow(0px 3px 4px #101216);
 	-moz-filter: drop-shadow(0px 3px 4px #101216);
 	-o-filter: drop-shadow(0px 3px 4px #101216);
@@ -130,7 +67,6 @@ blockquote {
 	-ms-animation-name: fadeInUp;
 	-o-animation-name: fadeInUp;
 	animation-name: fadeInUp;
-
 	-webkit-animation-duration: 1s;
 	-moz-animation-duration: 1s;
 	-ms-animation-duration: 1s;
@@ -166,15 +102,6 @@ textarea:focus, input:focus {
     color: #B6D3D8;
 }
 
-/*input {    
-	width: 80%;
-    margin: 32px auto 0;
-    background: transparent;
-    border: 2px solid #008DAE;
-    padding: 8px;
-    background-color: #333131;
-}*/
-
 input[type=email] {    
 	width: 80%;
     margin: 16px auto 0;
@@ -189,11 +116,8 @@ input[type=email] {
 
 input[type=submit] {    
 	width: 100%;
-	/* margin: 32px auto 0; */
-	/* margin: 8px; */
 	background: transparent;
 	border: 2px solid #008DAE;
-	/* padding: 8px; */
 	background-color: #333131;
 	display: -webkit-box;
 	display: -moz-box;
@@ -203,66 +127,18 @@ input[type=submit] {
 	width: 100%;
 	height: auto;
 	padding: 4px;
-
-	/* background-color: #333131; */
-	/* min-height: 100%; */
-	/* border: 2px solid #008DAE; */
-	/* overflow: hidden; */
-	/* padding: 2px; */
-/*	-webkit-box-justify-content: center;
-	-moz-box-justify-content: center;
-	-ms-flex-justify-content: center;*/
-	/* -webkit-justify-content: center; */
-	/* justify-content: center; */
-
 	-webkit-box-flex-direction: column;
 	-moz-box-flex-direction: column;
 	-ms-flex-direction: column;
 	-webkit-flex-direction: column;
-
-	/* flex-direction: column; */
-/*	text-decoration: none;
-	text-align: center;*/
+	flex-direction: column;
 	box-shadow: 0px 3px 4px #101216;
-	/* text-align: center; */
-
 	align-items: center;
-
 	font-family: 'Oswald',sans-serif;
-
 	color: #B6D3D8;
-
 	font-size: 1.5rem;
 	letter-spacing: 1px;
 }
-
-/*.button-NavContainerOuter {
-	width: 80%;
-    height: auto;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    margin: 16px auto;
-    -webkit-box-flex-direction: column;
-    -moz-box-flex-direction: column;
-    -ms-flex-direction: column;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    border: 2px solid #D15127;
-    padding: 8px;
-    -webkit-box-align-items: center;
-    -moz-box-align-items: center;
-    -ms-flex-align-items: center;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-box-align-self: center;
-    -moz-box-align-self: center;
-    -ms-flex-align-self: center;
-    -webkit-align-self: center;
-    align-self: center;
-}*/
 
 input[type=submit]:active {
     border: 2px solid #008DAE;
@@ -313,7 +189,6 @@ a.description-ContainerText {
 	line-height: 125%;
 	padding-left: 0px;
 }
-
 
 /* ///// TWEAKS ///// */
 .button-NavContainerOuter {
