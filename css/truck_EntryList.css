@@ -8,6 +8,7 @@
 }
 
 body {
+	display: none;
 	margin: 0;
 	padding: 0;
 	font-size: 100%;
@@ -684,4 +685,8 @@ button.truck-ListOpen-FooterNavMenuContainer, button.truck-ListOpen-FooterFilter
 	.truck-ListEntryOpen-NotFoundText {
 	    font-size: 1.75rem;
 	}
+}
+
+body {
+	display: block;
 }

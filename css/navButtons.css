@@ -2,6 +2,10 @@
 /* CSS Document */
 /* Nav Buttons */
 
+body {
+    display: none;
+}
+
 .nav-WittySayingContainer, .number-TrucksListedContainer {
     width: 100%;
     height: auto;
@@ -186,4 +190,8 @@
 .truck-ListEntryOpen-NotFoundText, .number-TrucksListedText {
     font-size: 1.75rem;
 }
+}
+
+body {
+    display: block;
 }

@@ -1,3 +1,7 @@
+body {
+  display: none;
+}
+
 * {
   	box-sizing: border-box; 
 }
@@ -154,3 +158,5 @@ input, select, textarea {
   letter-spacing: 1px;
     transform: scale(1,1.25);
 }
+
+body: display: block;

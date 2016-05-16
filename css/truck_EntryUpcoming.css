@@ -4,6 +4,7 @@
 }
 
 body {
+	display: none;
 	margin: 0;
 	padding: 0;
 	font-size: 100%;
@@ -862,4 +863,8 @@ a.truck-ListEntry-ButtonsDirectionsContainer:active {
 	.truck-ListEntryOpen-NotFoundText {
 	    font-size: 1.75rem;
 	}
+}
+
+body {
+	display: block;
 }

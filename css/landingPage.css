@@ -8,6 +8,7 @@
 
 body {
 	height: 100vh;
+	display: none;
 }
 
 .container-LandingPageBody {
@@ -81,16 +82,6 @@ button.truck-ListOpen-FooterFilterContainer {
 	border-right: 0px solid transparent;
 }
 
-/*.truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter {
--webkit-animation-name: fadeInUpBig;
--moz-animation-name: fadeInUpBig;
--ms-animation-name: fadeInUpBig;
--o-animation-name: fadeInUpBig;
-animation-name: fadeInUpBig;
-
--webkit-animation-duration: 1s;
--moz-animation-duration: 1s;
--ms-animation-duration: 1s;
--o-animation-duration: 1s;
-animation-duration: 1s;
-}*/
+body {
+	display: block;
+}

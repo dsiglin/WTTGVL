@@ -8,6 +8,7 @@
 
 body {
 	height: 100vh;
+	display: none;
 }
 
 q, 
@@ -324,4 +325,9 @@ a.description-ContainerText {
 	.description-ContainerTextEmphasis {
 		font-size: 1.25rem;
 	}
+}
+
+
+body {
+	display: block;
 }
