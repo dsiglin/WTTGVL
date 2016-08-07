@@ -62,7 +62,7 @@ body {
     -webkit-flex-direction: column;
     flex-direction: column;
 
-    border: 2px solid #D15127;
+    border: 8px solid #D15127;
     padding: 4px;
 
     -webkit-box-align-items: center;
@@ -92,6 +92,7 @@ body {
     -ms-animation-duration: .5s;
     -o-animation-duration: .5s;
     animation-duration: .5s;
+    /*border: 2px solid transparent;*/
 }
 
 /*.button-NavContainerOuter {
@@ -127,8 +128,9 @@ body {
 	-webkit-flex-direction: column;
 	flex-direction: column;
 	text-decoration: none;
-	box-shadow: 0px 3px 4px #101216;
+	box-shadow: 0px 5px 8px #101216;
 	text-align: center;
+     border-radius: 5px;
 
 /*    -ms-transition-duration: .75s;
     -o-transition-duration: .75s;
