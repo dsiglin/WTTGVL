@@ -28,6 +28,67 @@ body {
     text-align: center;
 }
 
+ul.truck-ListOpen-FooterNavPopUpContainer > div {
+    width: 100%;
+    height: auto;
+    padding: 64px 0 16px 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-justify-content: center;
+    -moz-box-justify-content: center;
+    -ms-flex-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    /* background-color: #008DAE; */
+    /* box-shadow: 0px 3px 4px #101216; */
+    max-width: 600px;
+    margin: 0 auto 8px auto;
+    min-width: 320px;
+    text-align: center;
+}
+
+ul.truck-ListOpen-FooterFilterPopUpContainer > div {
+    width: 100%;
+    height: auto;
+    padding: 64px 0 16px 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-justify-content: center;
+    -moz-box-justify-content: center;
+    -ms-flex-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    /* background-color: #008DAE; */
+    /* box-shadow: 0px 3px 4px #101216; */
+    max-width: 600px;
+    margin: 0 auto 8px auto;
+    min-width: 320px;
+    text-align: center;
+}
+
+ul.truck-ListOpen-FooterNavPopUpContainer > div > h1 {
+    font-family: 'Lobster', italic;
+    font-size: 3rem;
+    color: #B6D3D8;
+    line-height: 100%;
+    letter-spacing: 1px;
+}
+
+ul.truck-ListOpen-FooterFilterPopUpContainer > div > h1 {
+    font-family: 'Lobster', italic;
+    font-size: 3rem;
+    color: #B6D3D8;
+    line-height: 100%;
+    letter-spacing: 1px;
+}
+
+
 .nav-WittySayingContainer {
     padding: 64px 0 16px 0;
 }
@@ -130,11 +191,87 @@ ul.truck-ListOpen-FooterNavPopUpContainer > li {
         /*box-shadow: 0px 3px 4px #101216;*/
 }
 
+ul.truck-ListOpen-FooterFilterPopUpContainer > li {
+        width: 75%;
+        max-width: 325px;
+        min-width: 200px;
+        height: auto;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        margin: 8px auto;
+        position: relative;
+        z-index: 50;
+        -webkit-box-flex-direction: column;
+        -moz-box-flex-direction: column;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        border: 8px solid #D15127;
+        padding: 4px;
+        -webkit-box-align-items: center;
+        -moz-box-align-items: center;
+        -ms-flex-align-items: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-box-align-self: center;
+        -moz-box-align-self: center;
+        -ms-flex-align-self: center;
+        -webkit-align-self: center;
+        align-self: center;
+        /* box-shadow: 0px 3px 4px #101216; */
+
+        -webkit-animation-name: fadeInUpBig;
+        -moz-animation-name: fadeInUpBig;
+        -ms-animation-name: fadeInUpBig;
+        -o-animation-name: fadeInUpBig;
+        animation-name: fadeInUpBig;
+        -webkit-animation-duration: .5s;
+        -moz-animation-duration: .5s;
+        -ms-animation-duration: .5s;
+        -o-animation-duration: .5s;
+        animation-duration: .5s;
+
+        /*box-shadow: 0px 3px 4px #101216;*/
+}
+
 .button-WhatsComingUpOuter-standalone {
 	margin: 8px auto 150px auto;
 }
 
 ul.truck-ListOpen-FooterNavPopUpContainer > li > a {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: #33393e;
+        /* min-height: 100%; */
+        border: 3px solid #008DAE;
+        /* overflow: hidden; */
+        /* padding: 2px; */
+        -webkit-box-justify-content: center;
+        -moz-box-justify-content: center;
+        -ms-flex-justify-content: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-flex-direction: column;
+        -moz-box-flex-direction: column;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        text-decoration: none;
+        box-shadow: 0px 5px 8px #101216;
+        text-align: center;
+        border-radius: 5px;
+        text-transform:uppercase
+}
+
+ul.truck-ListOpen-FooterFilterPopUpContainer > li > div {
         display: -webkit-box;
         display: -moz-box;
         display: -ms-flexbox;
@@ -246,6 +383,26 @@ ul.truck-ListOpen-FooterNavPopUpContainer > li > a > div {
 
 }
 
+ul.truck-ListOpen-FooterFilterPopUpContainer > li > div > h1 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    color: #B6D3D8;
+    /*line-height: 100%;*/
+    letter-spacing: 1px;
+
+    -webkit-transform: scale(1,1.25);
+    -moz-transform: scale(1,1.25);
+    -ms-transform: scale(1,1.25);
+    -o-transform: scale(1,1.25);
+    transform: scale(1,1.25);
+
+    margin: 8px;
+
+    /*height: auto;*/
+
+}
+
 .button-NavText, .button-WhatsComingUpText, .truck-ListOpen-FooterNavMenuPopUp-NavText, .truck-ListOpen-FooterFilterPopUp-FilterText {
 	font-family: 'Oswald', sans-serif;
 	font-style: normal;
@@ -269,6 +426,11 @@ ul.truck-ListOpen-FooterNavPopUpContainer > li > a > div {
 /*////////////////// MEDIA QUERY ////////////////////////*/
 
 @media (max-width: 550px) {
+
+ul.truck-ListOpen-FooterNavPopUpContainer > div > h1 {
+    font-size: 3rem;
+}
+
 .number-TrucksListedText {
     font-size: 2.5rem;
 }
@@ -279,6 +441,10 @@ ul.truck-ListOpen-FooterNavPopUpContainer > li > a > div {
 }
 
 @media (max-width: 400px) {
+ul.truck-ListOpen-FooterNavPopUpContainer > div > h1 {
+    font-size: 2rem;
+}
+
 .truck-ListEntryOpen-NotFoundText, .number-TrucksListedText {
     font-size: 2rem;
 }
@@ -288,6 +454,10 @@ ul.truck-ListOpen-FooterNavPopUpContainer > li > a > div {
 /*.truck-ListOpen-FooterFilterPopUp-FilterText {
 	font-size: .85rem;
 }*/
+ul.truck-ListOpen-FooterNavPopUpContainer > div > h1 {
+    font-size: 1.75rem;
+}
+
 .truck-ListEntryOpen-NotFoundText, .number-TrucksListedText {
     font-size: 1.75rem;
 }
