@@ -40,6 +40,9 @@ body {
     letter-spacing: 1px;
 }
 
+
+
+
 .button-NavContainerOuter, .button-WhatsComingUpOuter, .truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter, .truck-ListOpen-FooterFilterPopUp-FilterContainerOuter {
 	width: 75%;
 	max-width: 325px;
@@ -81,27 +84,84 @@ body {
 
 }
 
-.truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter {
-    -webkit-animation-name: fadeInUpBig;
-    -moz-animation-name: fadeInUpBig;
-    -ms-animation-name: fadeInUpBig;
-    -o-animation-name: fadeInUpBig;
-    animation-name: fadeInUpBig;
-    -webkit-animation-duration: .5s;
-    -moz-animation-duration: .5s;
-    -ms-animation-duration: .5s;
-    -o-animation-duration: .5s;
-    animation-duration: .5s;
-    /*border: 2px solid transparent;*/
-}
+ul.truck-ListOpen-FooterNavPopUpContainer > li {
+        width: 75%;
+        max-width: 325px;
+        min-width: 200px;
+        height: auto;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        margin: 8px auto;
+        position: relative;
+        z-index: 50;
+        -webkit-box-flex-direction: column;
+        -moz-box-flex-direction: column;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        border: 8px solid #D15127;
+        padding: 4px;
+        -webkit-box-align-items: center;
+        -moz-box-align-items: center;
+        -ms-flex-align-items: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-box-align-self: center;
+        -moz-box-align-self: center;
+        -ms-flex-align-self: center;
+        -webkit-align-self: center;
+        align-self: center;
+        /* box-shadow: 0px 3px 4px #101216; */
 
-/*.button-NavContainerOuter {
-	width: 95%;
-	margin: 16px auto 8px;
-}*/
+        -webkit-animation-name: fadeInUpBig;
+        -moz-animation-name: fadeInUpBig;
+        -ms-animation-name: fadeInUpBig;
+        -o-animation-name: fadeInUpBig;
+        animation-name: fadeInUpBig;
+        -webkit-animation-duration: .5s;
+        -moz-animation-duration: .5s;
+        -ms-animation-duration: .5s;
+        -o-animation-duration: .5s;
+        animation-duration: .5s;
+
+        /*box-shadow: 0px 3px 4px #101216;*/
+}
 
 .button-WhatsComingUpOuter-standalone {
 	margin: 8px auto 150px auto;
+}
+
+ul.truck-ListOpen-FooterNavPopUpContainer > li > a {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: #33393e;
+        /* min-height: 100%; */
+        border: 3px solid #008DAE;
+        /* overflow: hidden; */
+        /* padding: 2px; */
+        -webkit-box-justify-content: center;
+        -moz-box-justify-content: center;
+        -ms-flex-justify-content: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-flex-direction: column;
+        -moz-box-flex-direction: column;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        text-decoration: none;
+        box-shadow: 0px 5px 8px #101216;
+        text-align: center;
+        border-radius: 5px;
+        text-transform:uppercase
 }
 
 .button-NavContainerInner, a.button-WhatsComingUpInner, .button-WhatsComingUpInner, a.truck-ListOpen-FooterNavMenuPopUp-NavContainerInner, .truck-ListOpen-FooterNavMenuPopUp-NavContainerInner, a.truck-ListOpen-FooterFilterPopUp-FilterContainerInner, .truck-ListOpen-FooterFilterPopUp-FilterContainerInner {
@@ -140,6 +200,12 @@ body {
 }
 
 
+ul.truck-ListOpen-FooterNavPopUpContainer > li > a:active {
+     border: 3px solid #008DAE;
+     background-color:  #008DAE;
+     box-shadow: 0px 8px 8px #101216;
+}
+
 .button-NavContainerInner:active, a.truck-ListOpen-FooterFilterPopUp-FilterContainerInner:active, a.truck-ListOpen-FooterNavMenuPopUp-NavContainerInner:active, a.button-WhatsComingUpInner:active {
 
     border: 3px solid #008DAE;
@@ -159,6 +225,26 @@ body {
 /*.truck-ListOpen-FooterFilterPopUp-FilterContainer:after {
 	border: 2px solid red;
 }*/
+
+ul.truck-ListOpen-FooterNavPopUpContainer > li > a > div {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    color: #B6D3D8;
+    /*line-height: 100%;*/
+    letter-spacing: 1px;
+
+    -webkit-transform: scale(1,1.25);
+    -moz-transform: scale(1,1.25);
+    -ms-transform: scale(1,1.25);
+    -o-transform: scale(1,1.25);
+    transform: scale(1,1.25);
+
+    margin: 8px;
+
+    /*height: auto;*/
+
+}
 
 .button-NavText, .button-WhatsComingUpText, .truck-ListOpen-FooterNavMenuPopUp-NavText, .truck-ListOpen-FooterFilterPopUp-FilterText {
 	font-family: 'Oswald', sans-serif;

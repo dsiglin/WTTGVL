@@ -43,7 +43,43 @@ a {
 /*/////////////////////////////////////////////////////*/
 /* FONTS-WORDING */
 
-.truck-ListEntry-NameText, .truck-ListEntry-ButtonDirectionsText, .truck-ListEntry-ButtonProfileText, .truck-ListEntry-ButtonsMenuText {
+section.truck-ListEntry > div:nth-of-type(1) > a > h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+	color: #B6D3D8;
+	line-height: 100%;
+	letter-spacing: 1px;
+	-webkit-transform: scale(1,1.25);
+	-moz-transform: scale(1,1.25);
+	-ms-transform: scale(1,1.25);
+	-o-transform: scale(1,1.25);
+	transform: scale(1,1.25);
+	-webkit-align-self: flex-start;
+	-moz-align-self: flex-start;
+	-ms-align-self: flex-start;
+	-o-align-self: flex-start;
+    align-self: flex-start;
+}
+
+section.truck-ListEntry > div:nth-of-type(1) > a > h2 {
+	font-family: 'Playfair Display', sans-serif;
+	font-style: italic;
+	font-size: 1rem;
+	color: #B6D3D8;
+	line-height: 175%;
+	width: 100%;
+	letter-spacing: 1px;
+	-webkit-align-self: flex-start;
+	-moz-align-self: flex-start;
+	-ms-align-self: flex-start;
+	-o-align-self: flex-start;
+    align-self: flex-start;
+	vertical-align: middle;
+}
+
+
+
+.truck-ListEntry-ButtonDirectionsText, .truck-ListEntry-ButtonProfileText, .truck-ListEntry-ButtonsMenuText {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1rem;
 	color: #B6D3D8;
@@ -56,16 +92,6 @@ a {
 	transform: scale(1,1.25);
 }
 
-.truck-ListEntry-NameText {
-	font-size: 2rem;
-	width: 100%;
-	-webkit-align-self: flex-start;
-	-moz-align-self: flex-start;
-	-ms-align-self: flex-start;
-	-o-align-self: flex-start;
-    align-self: flex-start;
-}
-
 .truck-ListEntryOpen-NotFoundText {
     text-align: center;
     margin: 0 0 16px 0;
@@ -76,7 +102,7 @@ a {
 	font-size: 1.25rem;
 }
 
-.truck-ListEntry-DescriptionText, .truck-ListEntry-InfoTimeAMPMText, .truck-ListEntry-InfoTimeTilText, .truck-ListEntry-InfoTimeText, .truck-ListEntry-InfoMilesUnitText, .truck-ListEntry-InfoMilesDistanceText {
+.truck-ListEntry-InfoTimeAMPMText, .truck-ListEntry-InfoTimeTilText, .truck-ListEntry-InfoTimeText, .truck-ListEntry-InfoMilesUnitText, .truck-ListEntry-InfoMilesDistanceText {
 	font-family: 'Playfair Display', sans-serif;
 	font-style: italic;
 	font-size: 2rem;
@@ -89,19 +115,6 @@ a {
 	-webkit-align-items: center;
 	align-items: center;
 	vertical-align: middle;
-}
-
-.truck-ListEntry-DescriptionText {
-	font-style: italic;
-	font-size: 1rem;
-	line-height: 175%;
-	width: 100%;
-	color: #B6D3D8;
-	-webkit-align-self: flex-start;
-	-moz-align-self: flex-start;
-	-ms-align-self: flex-start;
-	-o-align-self: flex-start;
-    align-self: flex-start;
 }
 
 .truck-ListEntry-InfoMilesUnitText {
@@ -154,7 +167,19 @@ a {
 	clear: both;
 }
 
-.truck-ListEntryUpcoming-UpperHalf, .truck-ListEntry-UpperHalf {
+.truck-ListEntryUpcoming-UpperHalf {
+	height: 50%;
+	width: 100%;
+	-webkit-box-align-self: flex-start;
+	-moz-box-align-self: flex-start;
+	-ms-flex-align-self: flex-start;
+	-webkit-align-self: flex-start;
+	align-self: flex-start;
+	border-bottom: 4px solid #596069;
+	padding: 7px;
+}
+
+section.truck-ListEntry > div:nth-of-type(1) {
 	height: 50%;
 	width: 100%;
 	-webkit-box-align-self: flex-start;
@@ -164,10 +189,7 @@ a {
 	align-self: flex-start;
 	border-bottom: 4px solid #D15127;
 	padding: 7px;
-}
 
-.truck-ListEntryUpcoming-UpperHalf {
-	border-bottom: 4px solid #596069;
 }
 
 .truck-ListEntry-LowerHalf {
@@ -328,7 +350,7 @@ a {
 /*/////////////////////////////////////////////////////*/
 /* TRUCK ENTRIES CLICKABLES AND STATES */
 
-a.truck-ListEntry-NameContainer {
+section.truck-ListEntry > div:nth-of-type(1) > a {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -359,7 +381,7 @@ a.truck-ListEntry-NameContainer {
 	border-radius: 5px;
 }
 
-a.truck-ListEntry-NameContainer:active {
+section.truck-ListEntry > div:nth-of-type(1) > a:active {
 	border: 3px solid #008DAE;
 	background-color:  #008DAE;
 	box-shadow: 0px 8px 8px #101216;
@@ -523,18 +545,18 @@ button.truck-ListOpen-FooterNavMenuContainer, button.truck-ListOpen-FooterFilter
 
 
 @media (max-width: 400px) {
-	.truck-ListEntry-NameText {
+	section.truck-ListEntry > div:nth-of-type(1) > a > h1 {
 		font-size: 1.5rem;
 	    letter-spacing: 0px;
 	    line-height: 130%;
 	}
 
-	a.truck-ListEntry-NameContainer {
+	section.truck-ListEntry > div:nth-of-type(1) > a {
 		padding-bottom: 4px;
 	}
 
 
-	.truck-ListEntry-DescriptionText {
+	section.truck-ListEntry > div:nth-of-type(1) > a > h2 {
 		font-size: .85rem;
 		margin: -3px 0 0 0;
 	}

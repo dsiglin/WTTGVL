@@ -11,7 +11,7 @@ a.button-RoundBackContainer {
 	height: 40px;
 	background-color: #008DAE;
 	border-radius: 50%;
-	position: fixed;
+	position: absolute;
 	bottom: 64px;
 	right: 12px;
 	z-index: 70;
@@ -198,7 +198,7 @@ button.truck-ListOpen-FooterNavMenuContainer:active, button.truck-ListOpen-Foote
     transform: scale(1,1.25);
 }
 
-.truck-ListOpen-FooterNavMenuPopUpContainer, .truck-ListOpen-FooterFilterPopUpContainer {
+.truck-ListOpen-FooterNavPopUpContainer, .truck-ListOpen-FooterFilterPopUpContainer {
 	position: fixed;
 	top: -10px;
 	padding: 0;
