@@ -49,6 +49,7 @@ section.truck-ListEntry > div:nth-of-type(1) > a > h1 {
 	color: #B6D3D8;
 	line-height: 100%;
 	letter-spacing: 1px;
+	text-transform: uppercase;
 	-webkit-transform: scale(1,1.25);
 	-moz-transform: scale(1,1.25);
 	-ms-transform: scale(1,1.25);
@@ -78,45 +79,22 @@ section.truck-ListEntry > div:nth-of-type(1) > a > h2 {
 }
 
 /* Menu Profile Directions button text */
-section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > h3 {
-	font-family: 'Oswald', sans-serif;
-	font-size: 1rem;
-	color: #B6D3D8;
-	line-height: 100%;
-	letter-spacing: 1px;
-	-webkit-transform: scale(1,1.25);
-	-moz-transform: scale(1,1.25);
-	-ms-transform: scale(1,1.25);
-	-o-transform: scale(1,1.25);
-	transform: scale(1,1.25);
-}
-
-section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(2) > h3 {
-	font-family: 'Oswald', sans-serif;
-	font-size: 1rem;
-	color: #B6D3D8;
-	line-height: 100%;
-	letter-spacing: 1px;
-	-webkit-transform: scale(1,1.25);
-	-moz-transform: scale(1,1.25);
-	-ms-transform: scale(1,1.25);
-	-o-transform: scale(1,1.25);
-	transform: scale(1,1.25);
-}
-
+section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > h3,
+section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(2) > h3,
 section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(3) > h3 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1rem;
 	color: #B6D3D8;
 	line-height: 100%;
 	letter-spacing: 1px;
+	text-transform: uppercase;
 	-webkit-transform: scale(1,1.25);
 	-moz-transform: scale(1,1.25);
 	-ms-transform: scale(1,1.25);
 	-o-transform: scale(1,1.25);
 	transform: scale(1,1.25);
 }
-/* Menu Profile Directions button text */
+/* / Menu Profile Directions button text */
 
 
 .truck-ListEntryOpen-NotFoundText {
@@ -125,11 +103,12 @@ section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-typ
 }
 
 
-.truck-ListEntry-ButtonDirectionsText {
+/*.truck-ListEntry-ButtonDirectionsText {
 	font-size: 1.25rem;
-}
+}*/
 
-.truck-ListEntry-InfoTimeAMPMText, .truck-ListEntry-InfoTimeTilText, .truck-ListEntry-InfoTimeText, .truck-ListEntry-InfoMilesUnitText, .truck-ListEntry-InfoMilesDistanceText {
+section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h4,
+section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > h4 {
 	font-family: 'Playfair Display', sans-serif;
 	font-style: italic;
 	font-size: 2rem;
@@ -144,7 +123,39 @@ section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-typ
 	vertical-align: middle;
 }
 
-.truck-ListEntry-InfoMilesUnitText {
+section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h4 > span,
+section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > h4 > span:nth-of-type(2) {
+	font-size: .85rem;
+	margin-left: 3px;
+}
+
+section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > h4 > span:nth-of-type(1) {
+	font-size: .85rem;
+	margin-right: 3px;
+}
+
+section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h4 > span {
+	font-size: .85rem;
+    margin-right: 2px;
+}
+
+
+/*.truck-ListEntry-InfoTimeAMPMText, .truck-ListEntry-InfoTimeTilText, .truck-ListEntry-InfoTimeText, .truck-ListEntry-InfoMilesUnitText, {
+	font-family: 'Playfair Display', sans-serif;
+	font-style: italic;
+	font-size: 2rem;
+	color: #adadad;
+	line-height: 60%;
+	letter-spacing: 1px;
+	-webkit-box-align-items: center;
+	-moz-box-align-items: center;
+	-ms-flex-align-items: center;
+	-webkit-align-items: center;
+	align-items: center;
+	vertical-align: middle;
+}*/
+
+/*.truck-ListEntry-InfoMilesUnitText {
 	font-size: .85rem;
 	margin-left: 3px;
 }
@@ -161,7 +172,7 @@ section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-typ
 .truck-ListEntry-InfoTimeAMPMText {
 	font-size: .65rem;
 	margin-left: 1px;
-}
+}*/
 
 
 /*/////////////////////////////////////////////////////*/
@@ -741,6 +752,21 @@ button.truck-ListOpen-FooterNavMenuContainer, button.truck-ListOpen-FooterFilter
 
 	section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(2) {
 		width: 48%;
+	}
+	section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h4 > span,
+	section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > h4 > span:nth-of-type(2) {
+		font-size: .75rem;
+		margin-left: 0px;
+	}
+
+	section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > h4 > span:nth-of-type(1) {
+		font-size: .75rem;
+		margin-right: 0px;
+	}
+
+	section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h4 > span {
+		font-size: .75rem;
+	    margin-right: 0px;
 	}
 }
 
