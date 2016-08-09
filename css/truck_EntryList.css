@@ -161,6 +161,10 @@ section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-t
   	box-shadow: 0px 3px 4px #101216;
 }
 
+.truck-ListUpcoming {
+	border-color: #596069;
+}
+
 .truck-ListEntryUpcoming {
 	border: 8px solid #596069;
 }
@@ -190,6 +194,19 @@ section.truck-ListEntry > div:nth-of-type(1) {
 	-webkit-align-self: flex-start;
 	align-self: flex-start;
 	border-bottom: 4px solid #D15127;
+	padding: 7px;
+
+}
+
+section.truck-ListEntry.truck-ListUpcoming > div:nth-of-type(1) {
+	height: 50%;
+	width: 100%;
+	-webkit-box-align-self: flex-start;
+	-moz-box-align-self: flex-start;
+	-ms-flex-align-self: flex-start;
+	-webkit-align-self: flex-start;
+	align-self: flex-start;
+	border-bottom: 4px solid #596069;
 	padding: 7px;
 
 }
@@ -256,6 +273,10 @@ section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) {
 	flex-direction: column;
 }
 
+section.truck-ListEntry.truck-ListUpcoming > div:nth-of-type(2) > div:nth-of-type(2) {
+	border-left: 4px solid #596069;
+}
+
 
 .truck-ListEntryUpcoming-InfoContainer, .truck-ListEntry-InfoContainer {
 	height: 100%;
@@ -300,6 +321,10 @@ section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-t
 	-ms-flex-justify-content: center;
 	-webkit-justify-content: center;
 	justify-content: center;
+}
+
+section.truck-ListEntry.truck-ListUpcoming > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) {
+	border: 2px solid #596069;
 }
 
 .truck-ListEntryUpcoming-InfoMilesContainer, .truck-ListEntry-InfoMilesContainer {
@@ -351,6 +376,10 @@ section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-t
 	-webkit-flex-direction: column;
 	flex-direction: column;
 	text-align: center;
+}
+
+section.truck-ListEntry.truck-ListUpcoming > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) {
+	border: 2px solid #596069;
 }
 
 .truck-ListEntryUpcoming-InfoTimeContainer, .truck-ListEntry-InfoTimeContainer {
