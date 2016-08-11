@@ -93,15 +93,16 @@ body {
 	padding: 8px 0 8px 0;
 }
 
-.profile-NameContainer {
+div.profile-FadeInUpSmall > div:nth-of-type(1) {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	width: 100%;
+	width: 80%;
     height: auto;
-    margin: 0 auto 8px;
+    margin: 32px auto 16px;
+    max-width: 400px;
 	-webkit-box-justify-content: center;
 	-moz-box-justify-content: center;
 	-ms-flex-justify-content: center;
@@ -390,7 +391,7 @@ a.buttonprofile-SocialLink:active {
 }
 
 .profile-AboutTextDescription, .profile-AnnouncementTextDescription, .profile-AnnouncementTextPlace, .profile-ScheduleTextTime, .profile-ScheduleTextPlace{
-	font-style: italic;
+	font-style: normal;
     font-size: 1rem;
     height: auto;
     width: 100%;
@@ -400,6 +401,7 @@ a.buttonprofile-SocialLink:active {
     display: block;
     letter-spacing: 1px;
     margin: 0 auto;
+    text-transform: uppercase;
 }
 
 .profile-ScheduleTextTime{
@@ -432,21 +434,13 @@ a.buttonprofile-SocialLink:active {
 
 /*////////////////// TWEAKS ////////////////////////*/
 
-.truck-ListEntry-NameText {
+div.profile-FadeInUpSmall > div:nth-of-type(1) > h1 {
     font-size: 2rem;
     -webkit-align-self: flex-start;
     -moz-align-self: flex-start;
     -ms-align-self: flex-start;
     -o-align-self: flex-start;
     align-self: flex-start;
-}
-
-.profile-NameContainer {
-    width: 80%;
-    height: auto;
-    /*padding: 0 0 0 16px;*/
-    margin: 32px auto 16px;
-    max-width: 400px;
 }
 
 /* FOOTER HACKS */
@@ -481,13 +475,13 @@ animation-duration: 1s;
 /*////// MEDIA QUERY ///////*/
 
 @media (max-width: 450px) {
-	.profile-NameContainer {
+	div.profile-FadeInUpSmall > div:nth-of-type(1) {
 	    width: 90%;
 	}
 }
 
 @media (max-width: 370px) {
-.truck-ListEntry-NameText {
+div.profile-FadeInUpSmall > div:nth-of-type(1) > h1 {
     font-size: 1.75rem; */
     /* letter-spacing: 0px; */
     /* line-height: 130%; */
@@ -495,7 +489,7 @@ animation-duration: 1s;
 }
 
 @media (max-width: 340px) {
-.truck-ListEntry-NameText {
+div.profile-FadeInUpSmall > div:nth-of-type(1) > h1 {
     font-size: 1.75rem;
     letter-spacing: 0px;
     line-height: 130%;
