@@ -108,11 +108,11 @@ section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-typ
 /*// -- distance, open til text -- //*/
 section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h4,
 section.truck-ListEntry > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > h4 {
-	font-family: 'Playfair Display', sans-serif;
+	font-family: 'Slabo 27px', sans-serif;
 	font-style: italic;
 	font-size: 2rem;
 	color: #adadad;
-	line-height: 60%;
+	line-height: 80%;
 	letter-spacing: 1px;
 	-webkit-box-align-items: center;
 	-moz-box-align-items: center;
