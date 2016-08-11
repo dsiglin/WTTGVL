@@ -43,7 +43,8 @@ a {
 /*/////////////////////////////////////////////////////*/
 /* FONTS-WORDING */
 
-section.truck-ListEntry > div:nth-of-type(1) > a > h1 {
+section.truck-ListEntry > div:nth-of-type(1) > a > h1,
+section.truck-ListEntry > div:nth-of-type(1) > div > h1 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 2rem;
 	color: #B6D3D8;
@@ -62,7 +63,8 @@ section.truck-ListEntry > div:nth-of-type(1) > a > h1 {
     align-self: flex-start;
 }
 
-section.truck-ListEntry > div:nth-of-type(1) > a > h2 {
+section.truck-ListEntry > div:nth-of-type(1) > a > h2,
+section.truck-ListEntry > div:nth-of-type(1) > div > h2 {
 	font-family: 'Playfair Display', sans-serif;
 	font-style: italic;
 	font-size: 1rem;
@@ -424,7 +426,8 @@ section.truck-ListEntry.truck-ListUpcoming > div:nth-of-type(2) > div:nth-of-typ
 /*/////////////////////////////////////////////////////*/
 /* TRUCK ENTRIES CLICKABLES AND STATES */
 
-section.truck-ListEntry > div:nth-of-type(1) > a {
+section.truck-ListEntry > div:nth-of-type(1) > a,
+section.truck-ListEntry > div:nth-of-type(1) > div {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -674,18 +677,21 @@ button.truck-ListOpen-FooterNavMenuContainer, button.truck-ListOpen-FooterFilter
 
 
 @media (max-width: 400px) {
-	section.truck-ListEntry > div:nth-of-type(1) > a > h1 {
+	section.truck-ListEntry > div:nth-of-type(1) > a > h1,
+	section.truck-ListEntry > div:nth-of-type(1) > div > h1 {
 		font-size: 1.5rem;
 	    letter-spacing: 0px;
 	    line-height: 130%;
 	}
 
-	section.truck-ListEntry > div:nth-of-type(1) > a {
+	section.truck-ListEntry > div:nth-of-type(1) > a,
+	section.truck-ListEntry > div:nth-of-type(1) > div{
 		padding-bottom: 4px;
 	}
 
 
-	section.truck-ListEntry > div:nth-of-type(1) > a > h2 {
+	section.truck-ListEntry > div:nth-of-type(1) > a > h2,
+	section.truck-ListEntry > div:nth-of-type(1) > div > h2 {
 		font-size: .85rem;
 		margin: -3px 0 0 0;
 	}
