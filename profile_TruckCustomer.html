@@ -17,6 +17,7 @@
 	<link href="css/navButtons.css" rel="stylesheet" type="text/css" />
 	<link href="css/truck_EntryList.css" rel="stylesheet" type="text/css" />
 	<link href="css/profile_TruckCustomer.css" rel="stylesheet" type="text/css" />
+	<link href="css/landingPage.css" rel="stylesheet" type="text/css" />
 		
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,78 +35,77 @@
 </head>
 
 <body>
-<!-- BACK BUTTON -->
-<a href="javascript:javascript:history.go(-1)" class="button-RoundBackContainer">
-	<div class="button-RoundBackContainerText">
-	&lt;
-	</div>
-</a>
-<!-- /BACK BUTTON -->
-
 <!-- FOOTER -->
 <section class="truck-ListOpen-FooterContainer">
 	<div class="truck-ListOpen-FooterSearchContainer">
-		<form class="truck-ListOpen-FooterSearch">
-			<span><input class="truck-ListOpen-FooterSearchInput"></span>
+		<form>
+			<span><input type="text" style="text-transform:uppercase" placeholder="SEARCH BY TRUCK NAME"></span>
 		</form>
 	</div>
 	<button type="button" class="truck-ListOpen-FooterFilterContainer">
+		<h1>
+			FILTERS
+		</h1>
 	</button>
 	<button type="button" class="truck-ListOpen-FooterNavMenuContainer">
-		<div class="truck-ListOpen-FooterNavMenuText">
+		<h1>
 			NAV
-		</div>
+		</h1>
 	</button>
+	<!-- BACK BODY -->
+	<a href="javascript:javascript:history.go(-1)">
+		<h1>
+		&lt;
+		</h1>
+	</a>
+	<!-- /BACK BODY -->
 </section>
 <!-- /FOOTER -->
 
 <!-- NAV POP UP -->
-<div class="truck-ListOpen-FooterNavMenuPopUpContainer" id="NavMenuPopUp">
-	<div class="nav-WittySayingContainer">
-		<div class="number-TrucksListedText">
+<ul class="truck-ListOpen-FooterNavPopUpContainer" id="NavMenuPopUp">
+	<div>
+		<h1>
 			I'm not judging.
-		</div>
+		</h1>
 	</div>
-	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
-		<a href="WTT.html" class="truck-ListOpen-FooterFilterPopUp-FilterContainerInner" style="text-transform:uppercase">
-			<div class="button-WhatsComingUpText">
+	<li>
+		<a href="WTT.html">
+			<div>
 				Home
 			</div>
 		</a>
-	</div>
-	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
-		<a href="list_TruckOpen.html" class="truck-ListOpen-FooterFilterPopUp-FilterContainerInner" style="text-transform:uppercase">
-			<div class="button-WhatsComingUpText">
-				What&#8217;s Nearby
+	</li>
+	<li>
+		<a href="list_TruckOpen.html">
+			<div>
+				What&#8217;s nearby
 			</div>
 		</a>
-	</div>
-	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
-		<a href="list_TruckUpcoming.html" class="truck-ListOpen-FooterNavMenuPopUp-NavContainerInner">
-			<div class="truck-ListOpen-FooterNavMenuPopUp-NavText" style="text-transform:uppercase">
+	</li>
+	<li>
+		<a href="list_TruckUpcoming.html">
+			<div>
 				What&#8217;s coming up
 			</div>
 		</a>
-	</div>
-	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
-		<a href="about.html" class="truck-ListOpen-FooterNavMenuPopUp-NavContainerInner">
-			<div class="truck-ListOpen-FooterNavMenuPopUp-NavText" style="text-transform:uppercase">
+	</li>
+	<li>
+		<a href="about.html">
+			<div>
 				About where the truck
 			</div>
 		</a>
-	</div>
-	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
-		<a href="truckloginregister.html" class="truck-ListOpen-FooterNavMenuPopUp-NavContainerInner">
-			<div class="truck-ListOpen-FooterNavMenuPopUp-NavText" style="text-transform:uppercase">
+	</li>
+	<li>
+		<a href="truckloginregister.html">
+			<div>
 				Truck Login / Register
 			</div>
 		</a>
-	</div>
-</div>
+	</li>
+</ul>
 <!-- /NAV POP UP -->
-
-<!-- FILTER POP UP -->
-<!-- /FILTER POP UP -->
 
 <!-- MAIN BODY -->
 <section class="body-mobilewrapper">
@@ -120,30 +120,60 @@
 	</div>
 
 	<div class="profile-FadeInUpSmall">
-	<div class="profile-NameContainer ">
-		<h1 class="truck-ListEntry-NameText" style="text-transform:uppercase">
-		Nick&#8217;s Roadkill Delight
-		</h1>
-		<h2 class="truck-ListEntry-DescriptionText">
-		A Bit Of Asphalt In Every Bite
-		</h2>
-	</div>
+
+		<section class="truck-ListEntry truck-Profile">
+		<!-- Truck name and description -->
+		<div>
+			<div>
+				<h1>
+					Nick&#8217;s roadkill delight
+				</h1>
+				<h2>
+					a bit of asphalt in every bite
+				</h2>
+			</div>
+		</div>
+		<!-- / Truck name and description -->
+		<!-- Truck buttons and information -->
+		<div>
+			<!-- Menu Profile Direction buttons -->
+			<div>
+				<a href="http://thoroughfarefoodtruck.com/menu/" target="_blank">
+					<h3>
+					menu
+					</h3>
+				</a>
+				<a href="profile_TruckCustomer.html">
+					<h3>
+					profile
+					</h3>
+				</a>
+				<a href="http://bit.ly/2aWOXUG" target="_blank">
+					<h3>
+					directions
+					</h3>
+				</a>
+			</div>
+			<!-- / Menu Profile Direction buttons -->
+			<!-- Distance Open Til information -->
+			<div>
+				<!-- Distance to -->
+				<div>
+					<h4>5.75<span>mi</span></h4>
+				</div>
+				<!-- / Distance to -->
+				<!-- Time -->
+				<div>
+					<h4><span>til</span>12:45<span>AM</span></h4>
+				</div>
+				<!-- / Time -->
+			</div>
+			<!-- / Distance Open Til information -->
+		</div>
+		<!-- / Truck buttons and information -->
+	</section>
 
 	<div class="button-NavContainerOuter">
-		<a href="https://www.google.com/maps/dir/Coffee+Underground,+East+Coffee+Street,+Greenville,+SC/Methodical+Coffee,+101+N+Main+St,+Greenville,+SC+29601/@34.8516118,-82.4011364,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x885831d1edde8ccb:0x6161602b529d8b!2m2!1d-82.3982977!2d34.851629!1m5!1m1!1s0x885831d04b758631:0x5c7bb3ec1a1275f5!2m2!1d-82.3995977!2d34.8519691!3e2" target="_blank" class="button-NavContainerInner">
-			<div class="button-NavText" style="text-transform:uppercase">
-			Directions
-			</div>
-		</a>
-	</div>
-
-	<div class="button-NavContainerOuter">
-		<a href="http://thoroughfarefoodtruck.com/menu/" target="_blank" class="button-NavContainerInner">
-			<div class="button-NavText" style="text-transform:uppercase">
-			Menu
-			</div>
-		</a>
-	</div>
 
 	<div class="profile-SocialContainer">
 		<a href="#" class="buttonprofile-SocialLink twitter-logo">
@@ -152,23 +182,10 @@
 		</a>
 		<a href="#" class="buttonprofile-SocialLink instagram-logo">
 		</a>
-		<div class="profile-TimeDistanceContainer">
-			<div class="profile-DistanceContainer">
-				<div class="profile-DistanceContainerText">
-					3.75 <span class="profile-DistanceContainerMilesText">mi</span>
-				</div>
-			</div>
-			<div class="profile_TimeDistanceDivider"></div>
-			<div class="profile-TimeContainer">
-				<div class="profile-TimeContainerText">
-					<span class="profile-DistanceContainerTilText">til</span>12:45<span class="profile-DistanceContainerAMPMText">PM</span>
-				</div>
-			</div>
-		</div>
 	</div>
 
 	<div class="profile-Schedule-ContainerOuter">
-		<h1 class="profile-ScheduleTextTitle">Weekly Schedule</h1>
+		<h1 class="profile-ScheduleTextTitle">Schedule</h1>
 		<div class="profile-Schedule-ContainerInner">
 			<div class="profile-ScheduleTextDate">Sun&ndash;13th</div>
 				<div class="profile-ScheduleTextPlace">Medford Park</div>

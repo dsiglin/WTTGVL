@@ -30,7 +30,7 @@ body {
 	-ms-flex-direction: column;
 	-webkit-flex-direction: column;
 	flex-direction: column;
-	margin: 0 0 16px 0;
+	margin: 0;
 	position: relative;
 	z-index: 50;
 }
@@ -93,15 +93,99 @@ body {
 	padding: 8px 0 8px 0;
 }
 
-.profile-NameContainer {
+section.truck-Profile > div:nth-of-type(1) > div {
+	border-color: #D15127;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px transparent;
+}
+
+section.truck-Profile > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(2) {
+	display: none;
+}
+
+section.truck-Profile > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) {
+    width: 99%;
+    border: 3px solid #008DAE;
+    margin: 0px;
+}
+
+/*section.truck-ProfileName > div:nth-of-type(1) > div {*/
+	/*display: -webkit-box;*/
+	/*display: -moz-box;*/
+	/*display: -ms-flexbox;*/
+	/*display: -webkit-flex;*/
+	/*display: flex;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*border: 0px solid #008DAE;*/
+	/*overflow: hidden;*/
+	/*padding: 7px 0 0 7px;*/
+	/*-webkit-box-justify-content: center;*/
+	/*-moz-box-justify-content: center;*/
+	/*-ms-flex-justify-content: center;*/
+	/*-webkit-justify-content: center;*/
+	/*justify-content: center;*/
+	/*-webkit-box-flex-direction: column;*/
+	/*-moz-box-flex-direction: column;*/
+	/*-ms-flex-direction: column;*/
+	/*-webkit-flex-direction: column;*/
+	/*flex-direction: column;*/
+	/*text-decoration: none;*/
+	/*-ms-transition-duration: 0s;*/
+	/*-o-transition-duration: 0s;*/
+	/*-moz-transition-duration: 0s;*/
+	/*-webkit-transition-duration: 0s;*/
+	/*transition-duration: 0s;*/
+	/*box-shadow: 0px 0px 0px #101216;*/
+	/*border-radius: 5px;*/
+/*}*/
+
+/*section.truck-ProfileName > div:nth-of-type(1) > div > h1 {*/
+	/*font-family: 'Oswald', sans-serif;*/
+	/*font-size: 2rem;*/
+	/*color: #B6D3D8;*/
+	/*line-height: 100%;*/
+	/*letter-spacing: 1px;*/
+	/*text-transform: uppercase;*/
+	/*-webkit-transform: scale(1,1.25);*/
+	/*-moz-transform: scale(1,1.25);*/
+	/*-ms-transform: scale(1,1.25);*/
+	/*-o-transform: scale(1,1.25);*/
+	/*transform: scale(1,1.25);*/
+	/*-webkit-align-self: flex-start;*/
+	/*-moz-align-self: flex-start;*/
+	/*-ms-align-self: flex-start;*/
+	/*-o-align-self: flex-start;*/
+    /*align-self: flex-start;*/
+/*}*/
+
+/*section.truck-ListEntry > div:nth-of-type(1) > div > h2 {*/
+	/*font-family: 'Playfair Display', sans-serif;*/
+	/*font-style: italic;*/
+	/*font-size: 1rem;*/
+	/*color: #B6D3D8;*/
+	/*line-height: 175%;*/
+	/*width: 100%;*/
+	/*letter-spacing: 1px;*/
+	/*-webkit-align-self: flex-start;*/
+	/*-moz-align-self: flex-start;*/
+	/*-ms-align-self: flex-start;*/
+	/*-o-align-self: flex-start;*/
+    /*align-self: flex-start;*/
+	/*vertical-align: middle;*/
+/*}*/
+
+
+div.profile-FadeInUpSmall > div:nth-of-type(1) {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	width: 100%;
+	width: 80%;
     height: auto;
-    margin: 0 auto 8px;
+    margin: 16px auto 16px;
+    max-width: 400px;
 	-webkit-box-justify-content: center;
 	-moz-box-justify-content: center;
 	-ms-flex-justify-content: center;
@@ -122,7 +206,7 @@ body {
 	display: flex;
 	width: 100%;
 	height: auto;
-	margin: 8px auto 32px;
+	margin: 8px auto 16px;
 	-webkit-box-justify-content: center;
 	-moz-box-justify-content: center;
 	-ms-flex-justify-content: center;
@@ -140,23 +224,6 @@ body {
 	align-items: center;
 }
 
-.profile-TimeDistanceContainer {
-	width: auto;
-    float: right;
-    -webkit-box-flex-direction: column;
-    -moz-box-flex-direction: column;
-    -ms-flex-direction: column;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    margin: 0 8px 0 8px;
-}
-
-.profile-TimeContainer, .profile-DistanceContainer {
-	width: 100%;
-	height: auto;
-	padding: 8px 8px 8px 8px;
-}
-
 .profile_TimeDistanceDivider, .profile_TimeDistanceDividerUpcoming {
 	width: 100%;
 	height: auto;
@@ -167,69 +234,11 @@ body {
 	border-bottom: 4px solid #434651;
 }
 
-
-.profile-TimeContainerText, .profile-DistanceContainerText {
-	font-style: italic;
-	font-size: 1.5rem;
-	line-height: 100%;
-	height: auto;
-	width: 100%;
-	color: #B6D3D8;
-	font-family: 'Playfair Display', sans-serif;
-	font-style: italic;
-	color: #adadad;
-	letter-spacing: 1px;
-	-webkit-box-align-items: center;
-	-moz-box-align-items: center;
-	-ms-flex-align-items: center;
-	-webkit-align-items: center;
-	 align-items: center; 
-	 padding-bottom: 4px;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-justify-content: center;
-	-moz-box-justify-content: center;
-	-ms-flex-justify-content: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-}
-
-.profile-DistanceContainerAMPMText, .profile-DistanceContainerTilText, .profile-DistanceContainerMilesText {
-	font-family: 'Playfair Display', sans-serif;
-	font-style: italic;
-	color: #adadad;
-	line-height: 60%;
-	letter-spacing: 1px;
-	-webkit-box-align-items: center;
-	-moz-box-align-items: center;
-	-ms-flex-align-items: center;
-	-webkit-align-items: center;
-	align-items: center;
-	vertical-align: middle;
-	font-size: .85rem;
-	margin-left: 3px;
-}
-
-.profile-DistanceContainerTilText {
-	margin-right: 3px;
-}
-
-.profile-DistanceContainerAMPMText {
-	margin-left: 1px;
-}
-
-.profile-DistanceContainerMilesText {
-	margin-left: 4px;
-}
-
 a.buttonprofile-SocialLink {
 	text-decoration: none;
 	width: 40px;
 	height: 40px;
-	border-radius: 50%;
+	border-radius: 5px;
 	border: 3px solid #008DAE;
 	float: left;
 	-moz-box-shadow: 0px 3px 4px #101216;
@@ -237,8 +246,8 @@ a.buttonprofile-SocialLink {
 	-ms-box-shadow: 0px 3px 4px #101216;
 	-webkit-box-shadow: 0px 3px 4px #101216;
 	box-shadow: 0px 3px 4px #101216;
-	margin: 0 8px 0 8px;
-	background-color: transparent;
+	margin: 0 16px 0 16px;
+	background-color: #008DAE;
 	position: relative;
 }
 
@@ -298,7 +307,7 @@ a.buttonprofile-SocialLink:active {
 .register-ThankYouContainer, .profile-About-ContainerOuter, .profile-Announcement-ContainerOuter, .profile-Schedule-ContainerOuter {
 	width: 100%;
     height: auto;
-    margin: 48px auto 0px auto;
+    margin: 40px auto 0px auto;
     text-align: center;
     display: -webkit-box;
     display: -moz-box;
@@ -355,7 +364,7 @@ a.buttonprofile-SocialLink:active {
 	margin: 0 10% 16px 10%;
 	padding: 8px 0 8px 0;
 	width: 60%;
-	border-bottom: 4px solid #D15127;
+	border: 3px solid #D15127;
 }
 
 .profile-ScheduleTextTitleUpcoming {
@@ -386,17 +395,17 @@ a.buttonprofile-SocialLink:active {
     margin: 16px 0 8px 0;
     /*letter-spacing: 3px;*/
     padding: 8px;
-    background-color: #434651;
+    border-bottom: 4px solid #434651;
 }
 
 .profile-AboutTextDescription, .profile-AnnouncementTextDescription, .profile-AnnouncementTextPlace, .profile-ScheduleTextTime, .profile-ScheduleTextPlace{
-	font-style: italic;
+	font-style: normal;
     font-size: 1rem;
     height: auto;
     width: 100%;
     min-width: 105px;
     color: #B6D3D8;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Slabo 27px', sans-serif;
     display: block;
     letter-spacing: 1px;
     margin: 0 auto;
@@ -432,7 +441,7 @@ a.buttonprofile-SocialLink:active {
 
 /*////////////////// TWEAKS ////////////////////////*/
 
-.truck-ListEntry-NameText {
+div.profile-FadeInUpSmall > div:nth-of-type(1) > h1 {
     font-size: 2rem;
     -webkit-align-self: flex-start;
     -moz-align-self: flex-start;
@@ -441,21 +450,13 @@ a.buttonprofile-SocialLink:active {
     align-self: flex-start;
 }
 
-.profile-NameContainer {
-    width: 80%;
-    height: auto;
-    /*padding: 0 0 0 16px;*/
-    margin: 32px auto 16px;
-    max-width: 400px;
-}
-
 /* FOOTER HACKS */
 .truck-ListOpen-FooterSearchContainer {
 	background-color: #2C2E35;
 }
 
 button.truck-ListOpen-FooterFilterContainer {
-	background-color: #2C2E35;
+	background-color: #333131;
 	box-shadow: 0px 0px 0px #101216;
 }
 
@@ -481,13 +482,13 @@ animation-duration: 1s;
 /*////// MEDIA QUERY ///////*/
 
 @media (max-width: 450px) {
-	.profile-NameContainer {
+	div.profile-FadeInUpSmall > div:nth-of-type(1) {
 	    width: 90%;
 	}
 }
 
 @media (max-width: 370px) {
-.truck-ListEntry-NameText {
+div.profile-FadeInUpSmall > div:nth-of-type(1) > h1 {
     font-size: 1.75rem; */
     /* letter-spacing: 0px; */
     /* line-height: 130%; */
@@ -495,7 +496,7 @@ animation-duration: 1s;
 }
 
 @media (max-width: 340px) {
-.truck-ListEntry-NameText {
+div.profile-FadeInUpSmall > div:nth-of-type(1) > h1 {
     font-size: 1.75rem;
     letter-spacing: 0px;
     line-height: 130%;

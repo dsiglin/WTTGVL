@@ -146,10 +146,6 @@ input[type=button], input[type=button]:hover {
   cursor: pointer;
 }
 
-form.truck-ListOpen-FooterSearch{
-  width: 100%;
-}
-
 input, select, textarea {
   font-family: 'Oswald', sans-serif;
   font-size: .85rem;

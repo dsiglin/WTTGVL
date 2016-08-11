@@ -13,12 +13,12 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: bottom center;
-	margin: 0 auto 16px;
-	-webkit-filter: drop-shadow(0px 3px 4px #101216);
+	margin: 16px auto;
+/*	-webkit-filter: drop-shadow(0px 3px 4px #101216);
 	-moz-filter: drop-shadow(0px 3px 4px #101216);
 	-o-filter: drop-shadow(0px 3px 4px #101216);
 	-ms-filter: drop-shadow(0px 3px 4px #101216);
-	filter: drop-shadow(0px 3px 4px #101216);
+	filter: drop-shadow(0px 3px 4px #101216);*/
 }
 
 .about-FadeInUpSmall {
@@ -123,14 +123,14 @@ a.buttonprofile-SocialLink {
 	text-decoration: none;
 	width: 40px;
 	height: 40px;
-	border-radius: 50%;
+	border-radius: 5px;
 	border: 3px solid #008DAE;
 	float: left;
 	-moz-box-shadow: 0px 3px 4px #101216;
 	-o-box-shadow: 0px 3px 4px #101216;
 	-ms-box-shadow: 0px 3px 4px #101216;
 	-webkit-box-shadow: 0px 3px 4px #101216;
-	box-shadow: 0px 3px 4px #101216;
+	box-shadow: 0px 5px 8px #101216;
 	margin: 0 8px 0 8px;
 	background-color: #333131;
 	position: relative;

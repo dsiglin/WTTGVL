@@ -72,7 +72,7 @@ jQuery(function(){
         }
 
         // Show/Hide the Navigation Modal
-        $(".truck-ListOpen-FooterNavMenuPopUpContainer").toggleClass("truck-ListOpen-FooterNavMenuPopUpContainer-Show");
+        $(".truck-ListOpen-FooterNavPopUpContainer").toggleClass("truck-ListOpen-FooterNavMenuPopUpContainer-Show");
         $(".truck-ListOpen-FooterSearchContainer").toggleClass("opacity-Zero-NotClickable");
         $(".truck-ListOpen-FooterFilterContainer").toggleClass("opacity-Zero-NotClickable");
         // $("body").toggleClass("overflow-Hidden");
