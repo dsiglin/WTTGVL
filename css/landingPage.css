@@ -3,7 +3,7 @@
 /* FOOTER FOR OPEN TRUCK LIST */
 
 body {
-	height: 100vh;
+	/*height: 100vh;*/
 	display: none;
 	/*background-color: #008DAE;*/
 }
@@ -29,7 +29,7 @@ body {
 }
 
 
-section.container-LandingPageBody > div:nth-of-type(1) {
+.logo-LandingPage {
 	height: 200px;
 	width: 80%;
 	background-image: url("../img/WTT-Logo-dusk.svg");
@@ -37,11 +37,6 @@ section.container-LandingPageBody > div:nth-of-type(1) {
 	background-size: contain;
 	background-position: bottom center;
 	margin: 0 auto 16px;
-/*	-webkit-filter: drop-shadow(0px 3px 4px #101216);
-	-moz-filter: drop-shadow(0px 3px 4px #101216);
-	-o-filter: drop-shadow(0px 3px 4px #101216);
-	-ms-filter: drop-shadow(0px 3px 4px #101216);
-	filter: drop-shadow(0px 3px 4px #101216);*/
 }
 
 /* FOOTER HACKS */

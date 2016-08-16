@@ -7,7 +7,7 @@ body {
 }
 
 
-.image-TruckPhotoContainerUpcoming, .image-TruckPhotoContainer {
+.image-TruckPhotoContainer {
 	width: 100%;
 	height: 175px;
 	border-bottom: 4px solid #D15127;
@@ -35,8 +35,12 @@ body {
 	z-index: 50;
 }
 
-.image-TruckPhotoContainerUpcoming {
-	border-bottom: 4px solid #434651;
+.image-TruckPhotoContainer.truck-ListUpcoming {
+    border-color: #596069;
+}
+
+.image-TruckPhotoContainer.truck-ListUpcoming > div:nth-of-type(2) {
+    background-color: #596069;
 }
 
 .profile-FadeInUpSmall {
@@ -52,7 +56,7 @@ body {
 	animation-duration: .5s;
 }
 
-.image-TruckPhotoContainerTint {
+section.image-TruckPhotoContainer > div:nth-of-type(1) {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -61,8 +65,8 @@ body {
 	z-index: 60;
 }
 
-.image-TruckPhotoTextContainerUpcoming, .image-TruckPhotoTextContainer {
-	width: 70%;
+section.image-TruckPhotoContainer > div:nth-of-type(2) {
+    width: auto;
     min-width: 175px;
     max-width: 300px;
     height: auto;
@@ -72,11 +76,7 @@ body {
     z-index: 70;
 }
 
-.image-TruckPhotoTextContainerUpcoming {
-	background-color: #434651;
-}
-
-.image-TruckPhotoText {
+section.image-TruckPhotoContainer > div:nth-of-type(2) > h1 {
 	font-family: 'Lobster', sans-serif;
 	font-style: italic;
 	font-size: 1.5rem;
@@ -91,6 +91,10 @@ body {
 	vertical-align: middle;
 	height: auto;
 	padding: 8px 0 8px 0;
+}
+
+section.truck-Profile {
+    margin-bottom: 32px;
 }
 
 section.truck-Profile > div:nth-of-type(1) > div {
@@ -108,73 +112,6 @@ section.truck-Profile > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(
     border: 3px solid #008DAE;
     margin: 0px;
 }
-
-/*section.truck-ProfileName > div:nth-of-type(1) > div {*/
-	/*display: -webkit-box;*/
-	/*display: -moz-box;*/
-	/*display: -ms-flexbox;*/
-	/*display: -webkit-flex;*/
-	/*display: flex;*/
-	/*width: 100%;*/
-	/*height: 100%;*/
-	/*border: 0px solid #008DAE;*/
-	/*overflow: hidden;*/
-	/*padding: 7px 0 0 7px;*/
-	/*-webkit-box-justify-content: center;*/
-	/*-moz-box-justify-content: center;*/
-	/*-ms-flex-justify-content: center;*/
-	/*-webkit-justify-content: center;*/
-	/*justify-content: center;*/
-	/*-webkit-box-flex-direction: column;*/
-	/*-moz-box-flex-direction: column;*/
-	/*-ms-flex-direction: column;*/
-	/*-webkit-flex-direction: column;*/
-	/*flex-direction: column;*/
-	/*text-decoration: none;*/
-	/*-ms-transition-duration: 0s;*/
-	/*-o-transition-duration: 0s;*/
-	/*-moz-transition-duration: 0s;*/
-	/*-webkit-transition-duration: 0s;*/
-	/*transition-duration: 0s;*/
-	/*box-shadow: 0px 0px 0px #101216;*/
-	/*border-radius: 5px;*/
-/*}*/
-
-/*section.truck-ProfileName > div:nth-of-type(1) > div > h1 {*/
-	/*font-family: 'Oswald', sans-serif;*/
-	/*font-size: 2rem;*/
-	/*color: #B6D3D8;*/
-	/*line-height: 100%;*/
-	/*letter-spacing: 1px;*/
-	/*text-transform: uppercase;*/
-	/*-webkit-transform: scale(1,1.25);*/
-	/*-moz-transform: scale(1,1.25);*/
-	/*-ms-transform: scale(1,1.25);*/
-	/*-o-transform: scale(1,1.25);*/
-	/*transform: scale(1,1.25);*/
-	/*-webkit-align-self: flex-start;*/
-	/*-moz-align-self: flex-start;*/
-	/*-ms-align-self: flex-start;*/
-	/*-o-align-self: flex-start;*/
-    /*align-self: flex-start;*/
-/*}*/
-
-/*section.truck-ListEntry > div:nth-of-type(1) > div > h2 {*/
-	/*font-family: 'Playfair Display', sans-serif;*/
-	/*font-style: italic;*/
-	/*font-size: 1rem;*/
-	/*color: #B6D3D8;*/
-	/*line-height: 175%;*/
-	/*width: 100%;*/
-	/*letter-spacing: 1px;*/
-	/*-webkit-align-self: flex-start;*/
-	/*-moz-align-self: flex-start;*/
-	/*-ms-align-self: flex-start;*/
-	/*-o-align-self: flex-start;*/
-    /*align-self: flex-start;*/
-	/*vertical-align: middle;*/
-/*}*/
-
 
 div.profile-FadeInUpSmall > div:nth-of-type(1) {
 	display: -webkit-box;
@@ -206,7 +143,7 @@ div.profile-FadeInUpSmall > div:nth-of-type(1) {
 	display: flex;
 	width: 100%;
 	height: auto;
-	margin: 8px auto 16px;
+	margin: 16px auto 16px;
 	-webkit-box-justify-content: center;
 	-moz-box-justify-content: center;
 	-ms-flex-justify-content: center;
@@ -224,17 +161,7 @@ div.profile-FadeInUpSmall > div:nth-of-type(1) {
 	align-items: center;
 }
 
-.profile_TimeDistanceDivider, .profile_TimeDistanceDividerUpcoming {
-	width: 100%;
-	height: auto;
-	border-bottom: 4px solid #D15127;
-}
-
-.profile_TimeDistanceDividerUpcoming {
-	border-bottom: 4px solid #434651;
-}
-
-a.buttonprofile-SocialLink {
+.profile-SocialContainer > a {
 	text-decoration: none;
 	width: 40px;
 	height: 40px;
@@ -249,9 +176,10 @@ a.buttonprofile-SocialLink {
 	margin: 0 16px 0 16px;
 	background-color: #008DAE;
 	position: relative;
+
 }
 
-a.buttonprofile-SocialLink:active {
+.profile-SocialContainer > a:active {
 	border: 3px solid #008DAE;
 	background-color:  #008DAE;
 	box-shadow: 0px 8px 8px #101216;
@@ -278,36 +206,10 @@ a.buttonprofile-SocialLink:active {
 	background-size: 65% 65%;
 }
 
-.profile-Divider80 {
-	width: 80%;
+section.profile-InfoAnnouncementContainer {
+    width: 100%;
     height: auto;
-    border-bottom: 2px solid #333131;
-    margin: 64px auto 64px auto;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-}
-
-.profile-Divider40 {
-	width: 40%;
-    height: auto;
-    border-bottom: 2px solid #333131;
-    margin: 0 auto 16px auto;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-}
-
-
-
-.register-ThankYouContainer, .profile-About-ContainerOuter, .profile-Announcement-ContainerOuter, .profile-Schedule-ContainerOuter {
-	width: 100%;
-    height: auto;
-    margin: 40px auto 0px auto;
+    margin: 64px auto 0px;
     text-align: center;
     display: -webkit-box;
     display: -moz-box;
@@ -331,29 +233,32 @@ a.buttonprofile-SocialLink:active {
     justify-content: center;
 }
 
+section.profile-InfoAnnouncementContainer:last-of-type {
+    padding-bottom: 128px;
+}
+
 .register-ThankYouContainerOuter {
 	margin: 48px auto 106px auto;
 }
 
-.profile-About-ContainerInner, .profile-Announcement-ContainerInner, .profile-Schedule-ContainerInner{
-	width: 50%;
+section.profile-InfoAnnouncementContainer.Schedule > div {
+    width: 50%;
 	height: auto;
 	margin: 0 auto;
 	padding: 0px 8px;
+
 }
 
-.profile-About-ContainerInner, .profile-Announcement-ContainerInner {
-	width: 100%;
-	padding: 0px 16px 16px 16px;
-	border: 0px;
+section.profile-InfoAnnouncementContainer > div {
+    width: 90%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0px 8px;
+
 }
 
-.profile-About-ContainerInner:last-of-type {
-	margin-bottom: 64px;
-}
-
-.profile-ScheduleTextTitleUpcoming, .profile-AboutTextTitle, .profile-AnnouncementTextTitle, .profile-ScheduleTextTitle {
-	font-style: italic;
+section.profile-InfoAnnouncementContainer > h1 {
+    font-style: italic;
 	font-size: 1.5rem;
 	line-height: 100%;
 	height: auto;
@@ -361,45 +266,60 @@ a.buttonprofile-SocialLink:active {
 	font-family: 'Lobster', sans-serif;
 	display: block;
 	letter-spacing: 1px;
-	margin: 0 10% 16px 10%;
-	padding: 8px 0 8px 0;
-	width: 60%;
+	margin: 0 10%;
+	padding: 8px 16px;
+	width: 90%;
 	border: 3px solid #D15127;
+    text-transform: capitalize;
 }
 
-.profile-ScheduleTextTitleUpcoming {
-	border-bottom: 4px solid #434651;
-}
-
-.register-ThankYouText {
-	font-style: italic;
-	font-size: 3rem;
-	line-height: 100%;
-	height: auto;
-	color: #B6D3D8;
-	font-family: 'Lobster', sans-serif;
-	display: block;
-	letter-spacing: 1px;
-	margin: 0 auto 16px auto;
-	padding: 8px 3vw 8px 0;
-	width: 80%;
-}
-
-.profile-AnouncementTextHeader, .profile-ScheduleTextHeader, .profile-ScheduleTextDate {
-	font-style: italic;
+section.profile-InfoAnnouncementContainer > div > h2 {
+    font-style: italic;
     font-size: 1.25rem;
     height: auto;
     color: #B6D3D8;
     font-family: 'Playfair Display', sans-serif;
     display: block;
-    margin: 16px 0 8px 0;
-    /*letter-spacing: 3px;*/
+    margin: 8px 0 8px 0;
+    letter-spacing: .5px;
     padding: 8px;
     border-bottom: 4px solid #434651;
 }
 
-.profile-AboutTextDescription, .profile-AnnouncementTextDescription, .profile-AnnouncementTextPlace, .profile-ScheduleTextTime, .profile-ScheduleTextPlace{
-	font-style: normal;
+section.profile-InfoAnnouncementContainer > div > p {
+    font-style: normal;
+    font-size: 1rem;
+    height: auto;
+    width: 100%;
+    min-width: 105px;
+    color: #B6D3D8;
+    font-family: 'Slabo 27px', sans-serif;
+    display: block;
+    letter-spacing: 1px;
+    margin: 0 auto 8px;
+    text-align: left;
+    padding-left: 8px;
+    line-height: 200%;
+}
+
+section.profile-InfoAnnouncementContainer.Schedule > div > p {
+    font-style: normal;
+    font-size: 1rem;
+    height: auto;
+    width: 100%;
+    min-width: 105px;
+    color: #B6D3D8;
+    font-family: 'Slabo 27px', sans-serif;
+    display: block;
+    letter-spacing: 1px;
+    margin: 0 auto 8px;
+    text-align: center;
+    padding-left:0px;
+    line-height:100%;
+}
+
+section.profile-InfoAnnouncementContainer.Schedule > div > h3 {
+    font-style: normal;
     font-size: 1rem;
     height: auto;
     width: 100%;
@@ -409,34 +329,9 @@ a.buttonprofile-SocialLink:active {
     display: block;
     letter-spacing: 1px;
     margin: 0 auto;
-}
-
-.profile-ScheduleTextTime{
-	margin: 0 auto 16px;;
-}
-
-.profile-AboutTextDescription, .profile-AnnouncementTextPlace, .profile-AnnouncementTextDescription, .profile-AnouncementTextHeader {
-	text-align: left;
-	padding-left: 8px;
-	line-height: 200%;
-	font-size: 1rem;
-}
-
-.profile-AnouncementTextHeader {
-	line-height: 100%;
-	letter-spacing: 1px;
-	font-size: 1.25rem;
-	padding: 12px;
-	margin: 8px 0;
-}
-
-.profile-ScheduleTextPlace:after {
-	clear: all;
-}
-
-.word-spacing {
-	word-spacing: 30px;
-	margin-left: 30px;
+    text-align: center;
+    padding-left:0px;
+    line-height:100%;
 }
 
 /*////////////////// TWEAKS ////////////////////////*/
@@ -466,18 +361,6 @@ button.truck-ListOpen-FooterFilterContainer {
 	border-right: 0px solid transparent;
 }
 
-.truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter {
--webkit-animation-name: fadeInUp;
--moz-animation-name: fadeInUp;
--ms-animation-name: fadeInUp;
--o-animation-name: fadeInUp;
-animation-name: fadeInUp;
--webkit-animation-duration: 1s;
--moz-animation-duration: 1s;
--ms-animation-duration: 1s;
--o-animation-duration: 1s;
-animation-duration: 1s;
-}
 
 /*////// MEDIA QUERY ///////*/
 
@@ -493,6 +376,10 @@ div.profile-FadeInUpSmall > div:nth-of-type(1) > h1 {
     /* letter-spacing: 0px; */
     /* line-height: 130%; */
 }
+section.profile-InfoAnnouncementContainer > h1 {
+    font-size:1.5rem;
+
+}
 }
 
 @media (max-width: 340px) {
@@ -500,6 +387,12 @@ div.profile-FadeInUpSmall > div:nth-of-type(1) > h1 {
     font-size: 1.75rem;
     letter-spacing: 0px;
     line-height: 130%;
+}
+section.profile-InfoAnnouncementContainer > h1 {
+    font-size:1.35rem;
+    letter-spacing: 0px;
+    line-height: 130%;
+
 }
 }
 

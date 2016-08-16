@@ -63,11 +63,11 @@ jQuery(function(){
         // Swap the menu button text
         if($self.hasClass('js-nav-open')){
           $self.removeClass('js-nav-open');
-          $(".truck-ListOpen-FooterNavMenuText").text("NAV");
+          $(".navtext").text("NAV");
           $.scrollLock( false );
         }else{
           $self.addClass('js-nav-open');
-          $(".truck-ListOpen-FooterNavMenuText").text("CLOSE");
+          $(".navtext").text("CLOSE");
           $.scrollLock( true );
         }
 
@@ -75,6 +75,7 @@ jQuery(function(){
         $(".truck-ListOpen-FooterNavPopUpContainer").toggleClass("truck-ListOpen-FooterNavMenuPopUpContainer-Show");
         $(".truck-ListOpen-FooterSearchContainer").toggleClass("opacity-Zero-NotClickable");
         $(".truck-ListOpen-FooterFilterContainer").toggleClass("opacity-Zero-NotClickable");
+        $(".button-navback").toggleClass("opacity-Zero-NotClickable");
         // $("body").toggleClass("overflow-Hidden");
 
     });
@@ -89,11 +90,11 @@ jQuery(function(){
         // Swap the filter button text
         if($self.hasClass('js-nav-open')){
           $self.removeClass('js-nav-open');
-          $(".truck-ListOpen-FooterFilterText").text("FILTERS");
+          $(".filtertext").text("FILTERS");
           $.scrollLock( false );
         }else{
           $self.addClass('js-nav-open');
-          $(".truck-ListOpen-FooterFilterText").text("CLOSE");
+          $(".filtertext").text("CLOSE");
           $.scrollLock( true );
         }
 
@@ -101,6 +102,7 @@ jQuery(function(){
         $(".truck-ListOpen-FooterFilterPopUpContainer").toggleClass("truck-ListOpen-FooterFilterPopUpContainer-Show");
         $(".truck-ListOpen-FooterSearchContainer").toggleClass("opacity-Zero-NotClickable");
         $(".truck-ListOpen-FooterNavMenuContainer").toggleClass("opacity-Zero-NotClickable");
+        $(".button-navback").toggleClass("opacity-Zero-NotClickable");
         // $("body").toggleClass("overflow-Hidden");
 
       });
