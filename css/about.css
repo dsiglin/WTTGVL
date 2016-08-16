@@ -7,18 +7,15 @@ body {
 }
 
 .logo_WTT {
-	height: 150px;
-	width: 95%;
-	background-image: url("../img/WTT-Logo-dusk.svg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: bottom center;
-	margin: 16px auto;
-/*	-webkit-filter: drop-shadow(0px 3px 4px #101216);
-	-moz-filter: drop-shadow(0px 3px 4px #101216);
-	-o-filter: drop-shadow(0px 3px 4px #101216);
-	-ms-filter: drop-shadow(0px 3px 4px #101216);
-	filter: drop-shadow(0px 3px 4px #101216);*/
+    height: 200px;
+    width: 100%;
+    background-image: url("../img/WTT-Logo-dusk.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    margin: 48px auto 16px;
+    /* background-color: #008DAE; */
+    /* padding: 48px 0 32px; */
 }
 
 .about-FadeInUpSmall {
@@ -33,6 +30,30 @@ body {
 	-o-animation-duration: .5s;
 	animation-duration: .5s;
 
+}
+
+.about-FadeInUpSmall > section {
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-justify-content: flex-start;
+    -moz-box-justify-content: flex-start;
+    -ms-flex-justify-content: flex-start;
+     -webkit-justify-content: flex-start;
+     justify-content: flex-start;
+    width: 100%;
+    max-width: 600px;
+    min-width: 320px;
+    height: auto;
+    min-height: 98vh;
+    padding: 0 0 100px 0;
+    margin: 0 auto;
+}
+
+div.about-FadeInUpSmall > div.logo-LandingPage {
+	margin: 32px 0;
 }
 
 .image-TruckPhotoContainerTint {

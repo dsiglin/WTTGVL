@@ -75,6 +75,7 @@ jQuery(function(){
         $(".truck-ListOpen-FooterNavPopUpContainer").toggleClass("truck-ListOpen-FooterNavMenuPopUpContainer-Show");
         $(".truck-ListOpen-FooterSearchContainer").toggleClass("opacity-Zero-NotClickable");
         $(".truck-ListOpen-FooterFilterContainer").toggleClass("opacity-Zero-NotClickable");
+        $(".button-navback").toggleClass("opacity-Zero-NotClickable");
         // $("body").toggleClass("overflow-Hidden");
 
     });
@@ -101,6 +102,7 @@ jQuery(function(){
         $(".truck-ListOpen-FooterFilterPopUpContainer").toggleClass("truck-ListOpen-FooterFilterPopUpContainer-Show");
         $(".truck-ListOpen-FooterSearchContainer").toggleClass("opacity-Zero-NotClickable");
         $(".truck-ListOpen-FooterNavMenuContainer").toggleClass("opacity-Zero-NotClickable");
+        $(".button-navback").toggleClass("opacity-Zero-NotClickable");
         // $("body").toggleClass("overflow-Hidden");
 
       });
