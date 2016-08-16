@@ -63,11 +63,11 @@ jQuery(function(){
         // Swap the menu button text
         if($self.hasClass('js-nav-open')){
           $self.removeClass('js-nav-open');
-          $(".truck-ListOpen-FooterNavMenuText").text("NAV");
+          $(".navtext").text("NAV");
           $.scrollLock( false );
         }else{
           $self.addClass('js-nav-open');
-          $(".truck-ListOpen-FooterNavMenuText").text("CLOSE");
+          $(".navtext").text("CLOSE");
           $.scrollLock( true );
         }
 
@@ -90,11 +90,11 @@ jQuery(function(){
         // Swap the filter button text
         if($self.hasClass('js-nav-open')){
           $self.removeClass('js-nav-open');
-          $(".truck-ListOpen-FooterFilterText").text("FILTERS");
+          $(".filtertext").text("FILTERS");
           $.scrollLock( false );
         }else{
           $self.addClass('js-nav-open');
-          $(".truck-ListOpen-FooterFilterText").text("CLOSE");
+          $(".filtertext").text("CLOSE");
           $.scrollLock( true );
         }
 
