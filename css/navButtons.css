@@ -80,13 +80,19 @@ section.truck-ListEntryOpen-NotFoundContainer > div:nth-of-type(1) {
 
 ul.button-WhatsComingUpOuter {
     width: 100%;
-    margin: 8px auto 150px auto;
+    margin: 8px auto 160px auto;
+}
+
+ul.button-LoginRegister {
+    width: 100%;
+    margin: 32px auto;
 }
 
 ul.truck-ListOpen-FooterNavPopUpContainer > li,
 ul.truck-ListOpen-FooterFilterPopUpContainer > li,
 ul.button-LandingPage > li,
-ul.button-WhatsComingUpOuter > li {
+ul.button-WhatsComingUpOuter > li,
+ul.button-LoginRegister > li {
     width: 75%;
     max-width: 325px;
     min-width: 200px;
@@ -173,7 +179,8 @@ ul.button-LandingPage,
 ul.truck-ListOpen-FooterNavPopUpContainer > li > a,
 ul.button-LandingPage > li > a,
 ul.truck-ListOpen-FooterFilterPopUpContainer > li > div,
-ul.button-WhatsComingUpOuter > li > a {
+ul.button-WhatsComingUpOuter > li > a,
+ul.button-LoginRegister > li > a {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -222,7 +229,8 @@ ul.truck-ListOpen-FooterNavPopUpContainer > li > a:active {
 ul.truck-ListOpen-FooterNavPopUpContainer > li > a > div,
 ul.truck-ListOpen-FooterFilterPopUpContainer > li > div > h1,
 ul.button-WhatsComingUpOuter > li > a > h1,
-ul.button-LandingPage > li > a > h1 {
+ul.button-LandingPage > li > a > h1,
+ul.button-LoginRegister > li > a > h1 {
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-size: 1rem;
@@ -532,7 +540,8 @@ button.truck-ListOpen-FooterNavMenuContainer > h1 {
 
 @media (max-width: 550px) {
 
-ul.truck-ListOpen-FooterNavPopUpContainer > div > h1 {
+ul.truck-ListOpen-FooterNavPopUpContainer > div > h1,
+ul.truck-ListOpen-FooterFilterPopUpContainer > div > h1{
     font-size: 3rem;
 }
 
@@ -548,7 +557,8 @@ section.truck-ListEntryOpen-NotFoundContainer > div:nth-of-type(1)  {
 }
 
 @media (max-width: 400px) {
-ul.truck-ListOpen-FooterNavPopUpContainer > div > h1 {
+ul.truck-ListOpen-FooterNavPopUpContainer > div > h1,
+ul.truck-ListOpen-FooterFilterPopUpContainer > div > h1 {
     font-size: 2rem;
 }
 
@@ -581,7 +591,8 @@ section.truck-ListEntryOpen-NotFoundContainer > div:nth-of-type(1)  {
 /*.truck-ListOpen-FooterFilterPopUp-FilterText {
 	font-size: .85rem;
 }*/
-ul.truck-ListOpen-FooterNavPopUpContainer > div > h1 {
+ul.truck-ListOpen-FooterNavPopUpContainer > div > h1,
+ul.truck-ListOpen-FooterFilterPopUpContainer > div > h1 {
     font-size: 1.75rem;
 }
 
@@ -592,6 +603,13 @@ section.truck-ListEntryOpen-NotFoundContainer > div:nth-of-type(1)  {
 
 .truck-ListEntryOpen-NotFoundText {
     font-size: 1.75rem;
+}
+ul.truck-ListOpen-FooterNavPopUpContainer > li > a > div,
+ul.truck-ListOpen-FooterFilterPopUpContainer > li > div > h1,
+ul.button-WhatsComingUpOuter > li > a > h1,
+ul.button-LandingPage > li > a > h1,
+ul.button-LoginRegister > li > a > h1 {
+    font-size: .95rem;
 }
 }
 
