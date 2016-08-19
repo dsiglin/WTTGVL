@@ -17,6 +17,7 @@
 	<link href="css/navButtons.css" rel="stylesheet" type="text/css" />
 	<link href="css/truck_EntryList.css" rel="stylesheet" type="text/css" />
 	<link href="css/profile_TruckCustomer.css" rel="stylesheet" type="text/css" />
+	<link href="css/landingPage.css" rel="stylesheet" type="text/css" />
 		
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,82 +36,85 @@
 
 <body>
 <!-- FOOTER -->
-<section class="truck-ListOpen-FooterContainer">
-	<div class="truck-ListOpen-FooterSearchContainer">
+<section class="footer-OuterContainer">
+	<div class="footer-SearchContainer">
 		<form>
 			<span><input type="text" style="text-transform:uppercase" placeholder="SEARCH BY TRUCK NAME"></span>
 		</form>
 	</div>
-	<button type="button" class="truck-ListOpen-FooterFilterContainer">
+	<button type="button" class="footer-button-FilterMenu">
 		<h1 class="filtertext">
 			FILTERS
 		</h1>
 	</button>
-	<button type="button" class="truck-ListOpen-FooterNavMenuContainer">
+	<button type="button" class="footer-button-NavMenu">
 		<h1 class="navtext">
 			NAV
 		</h1>
 	</button>
-	<!-- BACK BODY -->
-	<a href="javascript:javascript:history.go(-1)" class="button-navback">
-		<h1>
-		&lt;
-		</h1>
-	</a>
-	<!-- /BACK BODY -->
 </section>
 <!-- /FOOTER -->
 
 <!-- NAV POP UP -->
-<div class="truck-ListOpen-FooterNavMenuPopUpContainer" id="NavMenuPopUp">
-	<div class="nav-WittySayingContainer">
-		<div class="number-TrucksListedText">
-			I'm not judging.
-		</div>
-	</div>
-	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
-		<a href="WTT.html" class="truck-ListOpen-FooterFilterPopUp-FilterContainerInner" style="text-transform:uppercase">
-			<div class="button-WhatsComingUpText">
+<section class="overlay-Menu" id="NavMenu">
+    <ul>
+	<li class="overlay-Menu-Saying">
+		<h1>
+			Grease and gravel<Br>
+	 		a winning combo!
+		</h1>
+	</li>
+	<li class="button-Nav">
+		<a href="WTT.html">
+			<h1>
 				Home
-			</div>
+			</h1>
 		</a>
-	</div>
-	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
-		<a href="list_TruckOpen.html" class="truck-ListOpen-FooterFilterPopUp-FilterContainerInner" style="text-transform:uppercase">
-			<div class="button-WhatsComingUpText">
-				What&#8217;s Nearby
-			</div>
+	</li>
+	<li class="button-Nav">
+		<a href="list_TruckOpen.html">
+			<h1>
+				What&#8217;s nearby
+			</h1>
 		</a>
-	</div>
-	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
-		<a href="list_TruckUpcoming.html" class="truck-ListOpen-FooterNavMenuPopUp-NavContainerInner">
-			<div class="truck-ListOpen-FooterNavMenuPopUp-NavText" style="text-transform:uppercase">
+	</li>
+	<li class="button-Nav">
+		<a href="list_TruckUpcoming.html">
+			<h1>
 				What&#8217;s coming up
-			</div>
+			</h1>
 		</a>
-	</div>
-	<div class="truck-ListOpen-FooterNavMenuPopUp-NavContainerOuter">
-		<a href="about.html" class="truck-ListOpen-FooterNavMenuPopUp-NavContainerInner">
-			<div class="truck-ListOpen-FooterNavMenuPopUp-NavText" style="text-transform:uppercase">
+	</li>
+	<li class="button-Nav">
+		<a href="about.html">
+			<h1>
 				About where the truck
-			</div>
+			</h1>
 		</a>
-	</div>
-</div>
+	</li>
+    </ul>
+</section>
 <!-- /NAV POP UP -->
 
 <!-- MAIN BODY -->
-<section class="body-mobilewrapper">
-    <div class="register-ThankYouContainerOuter">
-	    <h1 class="register-ThankYouText">Thank You!</h1>
-        <div class="profile-Announcement-ContainerInner">
-            <div class="profile-AnnouncementTextDescription">Thank you for registering with Where The Truck. Hold tight and we will be in contact you within a day or two to verify information given. Afterwards your account/profile will become active and you can add things like photo, schedule, social media, etc.
-            <br/>
-            Go ahead and click the truck icon to head back to the home page or the menu icon for other navigation options.       
-           </div>
+<div class="body-Container body-Container-LandingPage">
+
+    <!-- LOGO -->
+	<div class="logo_WTT">
+	</div>
+    <!-- / LOGO -->
+
+    <!-- THANKS -->
+    <section class="profile-InfoAnnouncementContainer register-ThankYou profile-FadeInUpSmall">
+        <h1>Thank You!</h1>
+        <div>
+            <h2></h2>
+            <p>Thank you for registering with Where The Truck. Hold tight and we will be in contact you within a day or two to verify information given. Afterwards your account/profile will become active and you can add things like photo, schedule, social media, etc.</p>
         </div>
-    </div>
-</section>
+    </section>
+    <!-- / THANKS -->
+
+</div>
 <!-- /MAIN BODY -->
 
 <script type="text/javascript" src="js/index.js"></script>

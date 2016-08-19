@@ -16,7 +16,7 @@ blockquote {
     quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-.container-LandingPageBody {
+.body-Container-LandingPage {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -34,19 +34,6 @@ blockquote {
     min-height: 98vh;
     padding: 64px 0 100px 0;
     margin: 0 auto;
-}
-
-.logo_WTT {
-    height: 300px;
-    width: 100%;
-    background-image: url("../img/WTT-Logo-dusk.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top center;
-    /* padding: 48px 0 32px; */
-    border-top: 48px solid transparent;
-    border-bottom: 32px solid transparent;
-    /* margin: 48px auto 32px; */
 }
 
 /*.logo_WTT {*/
@@ -219,7 +206,7 @@ a.description-ContainerText {
 		font-size: 1.5rem;
 	}
 
-	.container-LandingPageBody {
+	.body-Container-LandingPage {
 	    padding: 0px 0 100px 0;
 	}
 }

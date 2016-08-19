@@ -6,19 +6,6 @@ body {
 	display: none;
 }
 
-.logo_WTT {
-    height: 300px;
-    width: 100%;
-    background-image: url("../img/WTT-Logo-dusk.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top center;
-    /* padding: 48px 0 32px; */
-    border-top: 48px solid transparent;
-    border-bottom: 32px solid transparent;
-    /* margin: 48px auto 32px; */
-}
-
 .about-FadeInUpSmall {
 	-webkit-animation-name: fadeInUpSmall;
 	-moz-animation-name: fadeInUpSmall;
@@ -68,16 +55,16 @@ div.about-FadeInUpSmall > div.logo-LandingPage {
 }
 
 /* FOOTER HACKS */
-.truck-ListOpen-FooterSearchContainer {
+.footer-SearchContainer {
 	background-color: #2C2E35;
 }
 
-button.truck-ListOpen-FooterFilterContainer {
+button.footer-button-FilterMenu {
 	background-color: #2C2E35;
 	box-shadow: 0px 0px 0px #101216;
 }
 
-.truck-ListOpen-FooterSearchContainer input{
+.footer-SearchContainer input{
 	height: 100%;
 	background-color: #2C2E35;
 	border-right: 0px solid transparent;

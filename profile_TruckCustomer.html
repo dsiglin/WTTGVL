@@ -35,19 +35,20 @@
 </head>
 
 <body>
+
 <!-- FOOTER -->
-<section class="truck-ListOpen-FooterContainer">
-	<div class="truck-ListOpen-FooterSearchContainer">
+<section class="footer-OuterContainer">
+	<div class="footer-SearchContainer">
 		<form>
 			<span><input type="text" style="text-transform:uppercase" placeholder="SEARCH BY TRUCK NAME"></span>
 		</form>
 	</div>
-	<button type="button" class="truck-ListOpen-FooterFilterContainer">
+	<button type="button" class="footer-button-FilterMenu">
 		<h1 class="filtertext">
 			FILTERS
 		</h1>
 	</button>
-	<button type="button" class="truck-ListOpen-FooterNavMenuContainer">
+	<button type="button" class="footer-button-NavMenu">
 		<h1 class="navtext">
 			NAV
 		</h1>
@@ -63,7 +64,8 @@
 <!-- /FOOTER -->
 
 <!-- NAV POP UP -->
-<ul class="truck-ListOpen-FooterNavPopUpContainer" id="NavMenuPopUp">
+<section class="overlay-Menu" id="NavMenuPopUp">
+    <ul>
 	<div>
 		<h1>
 			I'm not judging.
@@ -104,28 +106,35 @@
 			</div>
 		</a>
 	</li>
-</ul>
+    </ul>
+</section>
 <!-- /NAV POP UP -->
 
 <!-- MAIN BODY -->
-<section class="body-mobilewrapper">
+<div class="body-Container">
 
-    <!-- Truck Profile Image -->
+    <!-- TRUCK PROFILE IMAGE -->
 	<section class="image-TruckPhotoContainer">
-        <!-- Truck Profile Image Tint-->
+
+        <!-- TRUCK PROFILE IMAGE TINT-->
 		<div></div>
-        <!-- /Truck Profile Image Tint-->
+        <!-- / TRUCK PROFILE IMAGE TINT -->
+
+        <!-- OPEN OR CLOSED HEADER -->
 		<div>
 			<h1>
 			Currently  Open
 			</h1>
 		</div>
-	</section>
-    <!-- /Truck Profile Image -->
+        <!-- / OPEN OR CLOSED HEADER -->
 
+	</section>
+    <!-- / TRUCK PROFILE IMAGE -->
+
+    <!-- TRUCK INFO SECTION -->
 	<section class="profile-FadeInUpSmall">
 
-        <!-- Truck List Profile -->
+        <!-- TRUCK ENTRY -->
         <section class="truck-ListEntry truck-Profile">
 		    <!-- Truck name and description -->
             <div>
@@ -178,9 +187,9 @@
             </div>
 		<!-- / Truck buttons and information -->
 	    </section>
-        <!-- /Truck List Profile -->
+        <!-- / TRUCK ENTRY -->
 
-        <!-- Truck Social Buttons -->
+        <!-- TRUCK SOCIAL BUTTONS -->
         <section class="profile-SocialContainer">
             <a href="#" class="twitter-logo">
             </a>
@@ -189,9 +198,9 @@
             <a href="#" class="instagram-logo">
             </a>
         </section>
-        <!-- /Truck Social Buttons -->
+        <!-- / TRUCK SOCIAL BUTTONS -->
 
-        <!-- Truck Schedule -->
+        <!-- TRUCK SCHEDULE -->
         <section class="profile-InfoAnnouncementContainer Schedule">
             <h1>Schedule</h1>
             <div>
@@ -234,9 +243,9 @@
             </div>
 
         </section>
-        <!-- /Truck Schedule -->
+        <!-- / TRUCK SCHEDULE -->
 
-        <!-- Truck Specials -->
+        <!-- TRUCK SPECIALS -->
         <section class="profile-InfoAnnouncementContainer">
             <h1>Specials</h1>
             <div>
@@ -244,9 +253,9 @@
                 <p>We are running a special for the week of December 13th. If you  buy one normal entree we will give you another for half off. That's less money and just as much flavor!</p>
             </div>
         </section>
-        <!-- /Truck Specials -->
+        <!-- / TRUCK SPECIALS -->
 
-        <!-- Truck Announcements -->
+        <!-- TRUCK ANNOUNCEMENTS -->
         <section class="profile-InfoAnnouncementContainer">
             <h1>Announcements</h1>
             <div>
@@ -254,9 +263,9 @@
                 <p>Euphoria is kicking off with a bang and we will be there to provide all your food truck needs. Find us over by the Peace Center from 10am til 11pm this coming Thursday.</p>
             </div>
         </section>
-        <!-- /Truck Announcements -->
+        <!-- / TRUCK ANNOUNCEMENTS -->
 
-        <!-- Truck About -->
+        <!-- TRUCK ABOUT -->
         <section class="profile-InfoAnnouncementContainer">
             <h1>About</h1>
             <div>
@@ -264,10 +273,12 @@
                 <p>With every bite of delicious roadkill, Nick's Roadkill Delight will delight you with it's slightly asphalt taste. Sure some other food trucks promise you fresher food but nothing comes close to that slow aged, sun baked goodness that only Nick's serves. You can always count on us to deliver the most unique and . . . interesting meal combinations.</p>
             </div>
         </section>
-        <!-- /Truck About -->
+        <!-- / TRUCK ABOUT -->
 
-    </section> <!-- / FADE IN UP SMALL -->
-</section>
+    </section>
+    <!-- / TRUCK INFO SECTION -->
+
+</div>
 <!-- /MAIN BODY -->
 
 <script type="text/javascript" src="js/index.js"></script>

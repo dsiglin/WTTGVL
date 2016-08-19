@@ -6,7 +6,7 @@ body {
     display: none;
 }
 
-.number-TrucksListedContainer {
+.truck-ListEntry-StartOfListContainer {
     width: 100%;
     height: auto;
     padding: 32px 0 32px 0;
@@ -26,8 +26,7 @@ body {
     text-align: center;
 }
 
-ul.truck-ListOpen-FooterNavPopUpContainer > div,
-ul.truck-ListOpen-FooterFilterPopUpContainer > div {
+li.overlay-Menu-Saying {
     width: 100%;
     height: auto;
     padding: 64px 0 16px 0;
@@ -47,8 +46,8 @@ ul.truck-ListOpen-FooterFilterPopUpContainer > div {
     text-align: center;
 }
 
-ul.truck-ListOpen-FooterNavPopUpContainer > div > h1,
-ul.truck-ListOpen-FooterFilterPopUpContainer > div > h1 {
+li.overlay-Menu-Saying > h1,
+li.overlay-Menu-Saying > h1 {
     font-family: 'Lobster', italic;
     font-size: 3rem;
     color: #B6D3D8;
@@ -60,8 +59,8 @@ ul.truck-ListOpen-FooterFilterPopUpContainer > div > h1 {
     padding: 64px 0 16px 0;
 }*/
 
-section.number-TrucksListedContainer > div,
-section.truck-ListEntryOpen-NotFoundContainer > div:nth-of-type(1) {
+section.truck-ListEntry-StartOfListContainer > h1,
+section.truck-ListEntry-EndOfListContainer > h1 {
     font-family: 'Lobster', italic;
     font-size: 3rem;
     color: #B6D3D8;
@@ -88,11 +87,53 @@ ul.button-LoginRegister {
     margin: 32px auto;
 }
 
-ul.truck-ListOpen-FooterNavPopUpContainer > li,
-ul.truck-ListOpen-FooterFilterPopUpContainer > li,
-ul.button-LandingPage > li,
-ul.button-WhatsComingUpOuter > li,
-ul.button-LoginRegister > li {
+/*ul.truck-ListOpen-FooterNavPopUpContainer > li,*/
+/*ul.truck-ListOpen-FooterFilterPopUpContainer > li,*/
+/*ul.button-LandingPage > li,*/
+/*ul.button-WhatsComingUpOuter > li,*/
+/*ul.button-LoginRegister > li {*/
+    /*width: 75%;*/
+    /*max-width: 325px;*/
+    /*min-width: 200px;*/
+    /*height: auto;*/
+    /*display: -webkit-box;*/
+    /*display: -moz-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    /*margin: 8px auto;*/
+    /*position: relative;*/
+    /*z-index: 50;*/
+    /*-webkit-box-flex-direction: column;*/
+    /*-moz-box-flex-direction: column;*/
+    /*-ms-flex-direction: column;*/
+    /*-webkit-flex-direction: column;*/
+    /*flex-direction: column;*/
+    /*border: 8px solid #D15127;*/
+    /*padding: 4px;*/
+    /*-webkit-box-align-items: center;*/
+    /*-moz-box-align-items: center;*/
+    /*-ms-flex-align-items: center;*/
+    /*-webkit-align-items: center;*/
+    /*align-items: center;*/
+    /*-webkit-box-align-self: center;*/
+    /*-moz-box-align-self: center;*/
+    /*-ms-flex-align-self: center;*/
+    /*-webkit-align-self: center;*/
+    /*align-self: center;*/
+    /*-webkit-animation-name: fadeInUpBig;*/
+    /*-moz-animation-name: fadeInUpBig;*/
+    /*-ms-animation-name: fadeInUpBig;*/
+    /*-o-animation-name: fadeInUpBig;*/
+    /*animation-name: fadeInUpBig;*/
+    /*-webkit-animation-duration: .5s;*/
+    /*-moz-animation-duration: .5s;*/
+    /*-ms-animation-duration: .5s;*/
+    /*-o-animation-duration: .5s;*/
+    /*animation-duration: .5s;*/
+/*}*/
+
+.button-Nav {
     width: 75%;
     max-width: 325px;
     min-width: 200px;
@@ -135,11 +176,11 @@ ul.button-LoginRegister > li {
 }
 
 ul.button-LandingPage,
-.truck-ListEntryOpen-NotFoundContainer {
+.truck-ListEntry-EndOfListContainer {
     width: 100%;
     margin: 8px auto;
     height: auto;
-    padding: 0 4vw;
+    padding: 0;
     margin: 0;
     text-align: center;
     -webkit-animation-name: fadeInUp;
@@ -172,15 +213,43 @@ ul.button-LandingPage,
     box-shadow: 0px 0px 0px #101216;
 }
 
-.truck-ListEntryOpen-NotFoundContainer {
+.truck-ListEntry-EndOfListContainer {
     margin: 32px 0 16px 0;
 }
 
-ul.truck-ListOpen-FooterNavPopUpContainer > li > a,
-ul.button-LandingPage > li > a,
-ul.truck-ListOpen-FooterFilterPopUpContainer > li > div,
-ul.button-WhatsComingUpOuter > li > a,
-ul.button-LoginRegister > li > a {
+/*ul.truck-ListOpen-FooterNavPopUpContainer > li > a,*/
+/*ul.button-LandingPage > li > a,*/
+/*ul.truck-ListOpen-FooterFilterPopUpContainer > li > div,*/
+/*ul.button-WhatsComingUpOuter > li > a,*/
+/*ul.button-LoginRegister > li > a {*/
+    /*display: -webkit-box;*/
+    /*display: -moz-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*background-color: #33393e;*/
+    /*border: 3px solid #008DAE;*/
+    /*-webkit-box-justify-content: center;*/
+    /*-moz-box-justify-content: center;*/
+    /*-ms-flex-justify-content: center;*/
+    /*-webkit-justify-content: center;*/
+    /*justify-content: center;*/
+    /*-webkit-box-flex-direction: column;*/
+    /*-moz-box-flex-direction: column;*/
+    /*-ms-flex-direction: column;*/
+    /*-webkit-flex-direction: column;*/
+    /*flex-direction: column;*/
+    /*text-decoration: none;*/
+    /*box-shadow: 0px 5px 8px #101216;*/
+    /*text-align: center;*/
+    /*border-radius: 5px;*/
+    /*text-transform:uppercase*/
+/*}*/
+
+.button-Nav > a,
+.button-Nav > div {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -205,19 +274,20 @@ ul.button-LoginRegister > li > a {
     text-align: center;
     border-radius: 5px;
     text-transform:uppercase
+
 }
 
-ul.button-WhatsComingUpInner > li > a:active {
+.button-Nav > a:active {
     border: 3px solid #008DAE;
     background-color:  #008DAE;
     box-shadow: 0px 8px 8px #101216;
 }
 
-ul.truck-ListOpen-FooterNavPopUpContainer > li > a:active {
-     border: 3px solid #008DAE;
-     background-color:  #008DAE;
-     box-shadow: 0px 8px 8px #101216;
-}
+/*ul.truck-ListOpen-FooterNavPopUpContainer > li > a:active {*/
+     /*border: 3px solid #008DAE;*/
+     /*background-color:  #008DAE;*/
+     /*box-shadow: 0px 8px 8px #101216;*/
+/*}*/
 
 .button-NavContainerInner:active, a.truck-ListOpen-FooterFilterPopUp-FilterContainerInner:active, a.truck-ListOpen-FooterNavMenuPopUp-NavContainerInner:active, a.button-WhatsComingUpInner:active {
 
@@ -226,11 +296,8 @@ ul.truck-ListOpen-FooterNavPopUpContainer > li > a:active {
     box-shadow: 0px 8px 8px #101216;
 }
 
-ul.truck-ListOpen-FooterNavPopUpContainer > li > a > div,
-ul.truck-ListOpen-FooterFilterPopUpContainer > li > div > h1,
-ul.button-WhatsComingUpOuter > li > a > h1,
-ul.button-LandingPage > li > a > h1,
-ul.button-LoginRegister > li > a > h1 {
+.button-Nav > a > h1,
+.button-Nav > div > h1 {
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-size: 1rem;
@@ -258,7 +325,7 @@ ul.button-LoginRegister > li > a > h1 {
 	margin: 8px;
 }*/
 
-section.truck-ListOpen-FooterContainer > a {
+section.footer-OuterContainer > a {
     width: 40px;
     height: 40px;
     background-color: #008DAE;
@@ -295,15 +362,15 @@ section.truck-ListOpen-FooterContainer > a {
     transition: all .35s ease-in-out;
 }
 
-section.truck-ListOpen-FooterContainer > a:active {
+section.footer-OuterContainer > a:active {
     box-shadow: 0px 8px 8px #101216;
 }
 
-section.truck-ListOpen-FooterContainer > a:focus {
+section.footer-OuterContainer > a:focus {
     outline-style: none;
 }
 
-section.truck-ListOpen-FooterContainer > a > h1 {
+section.footer-OuterContainer > a > h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 2em;
     color: #B6D3D8;
@@ -318,7 +385,7 @@ section.truck-ListOpen-FooterContainer > a > h1 {
     right: 1px;
 }
 
-.truck-ListOpen-FooterContainer {
+.footer-OuterContainer {
     width: 100%;
     padding: 0 0 8px 0;
     position: fixed;
@@ -340,7 +407,7 @@ section.truck-ListOpen-FooterContainer > a > h1 {
     min-width: 320px;
 }
 
-section.truck-ListOpen-FooterContainer > div:nth-of-type(1) {
+section.footer-OuterContainer > div:nth-of-type(1) {
     width: 60%;
     min-width: 184px;
     max-width: 100%;
@@ -375,11 +442,11 @@ section.truck-ListOpen-FooterContainer > div:nth-of-type(1) {
     transition: all .1s ease-in-out;
 }
 
-section.truck-ListOpen-FooterContainer > div:nth-of-type(1) > form {
+section.footer-OuterContainer > div:nth-of-type(1) > form {
     width: 100%;
 }
 
-section.truck-ListOpen-FooterContainer > div:nth-of-type(1) > form > span > input {
+section.footer-OuterContainer > div:nth-of-type(1) > form > span > input {
     height: 100%;
     background-color: transparent;
     border-right: 2px solid #33393e;
@@ -390,7 +457,7 @@ section.truck-ListOpen-FooterContainer > div:nth-of-type(1) > form > span > inpu
     top: 4px;
 }
 
-button.truck-ListOpen-FooterNavMenuContainer, button.truck-ListOpen-FooterFilterContainer {
+button.footer-button-NavMenu, button.footer-button-FilterMenu {
     width: 25%;
     min-width: 20px;
     float: left;
@@ -428,11 +495,11 @@ button.truck-ListOpen-FooterNavMenuContainer, button.truck-ListOpen-FooterFilter
     border-radius: 5px;
 }
 
-button.truck-ListOpen-FooterNavMenuContainer {
+button.footer-button-NavMenu {
     width: 20%;
 }
 
-button.truck-ListOpen-FooterNavMenuContainer:active, button.truck-ListOpen-FooterFilterContainer:active {
+button.footer-button-NavMenu:active, button.footer-button-FilterMenu:active {
     box-shadow: 0px 5px 8px #101216;
     -webkit-transition-duration: .1s;
     -moz-transition-duration: .1s;
@@ -446,8 +513,8 @@ button.truck-ListOpen-FooterNavMenuContainer:active, button.truck-ListOpen-Foote
     transition-timing-function: cubic-bezier(0.42, 0.26, 0, 1.33);
 }
 
-button.truck-ListOpen-FooterFilterContainer > h1,
-button.truck-ListOpen-FooterNavMenuContainer > h1 {
+button.footer-button-FilterMenu > h1,
+button.footer-button-NavMenu > h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 1rem;
     color: #B6D3D8;
@@ -460,7 +527,7 @@ button.truck-ListOpen-FooterNavMenuContainer > h1 {
     transform: scale(1,1.25);
 }
 
-.truck-ListOpen-FooterNavPopUpContainer, .truck-ListOpen-FooterFilterPopUpContainer {
+.overlay-Menu {
     position: fixed;
     top: -10px;
     padding: 0;
@@ -494,7 +561,7 @@ button.truck-ListOpen-FooterNavMenuContainer > h1 {
 }
 
 
-.truck-ListOpen-FooterNavMenuPopUpContainer-Show, .truck-ListOpen-FooterFilterPopUpContainer-Show {
+.overlay-MenuShow {
     height: 100vh;
     bottom: -10px;
     top: -5px;
@@ -540,13 +607,13 @@ button.truck-ListOpen-FooterNavMenuContainer > h1 {
 
 @media (max-width: 550px) {
 
-ul.truck-ListOpen-FooterNavPopUpContainer > div > h1,
-ul.truck-ListOpen-FooterFilterPopUpContainer > div > h1{
+li.overlay-Menu-Saying > h1,
+li.overlay-Menu-Saying > h1{
     font-size: 3rem;
 }
 
-section.number-TrucksListedContainer > div,
-section.truck-ListEntryOpen-NotFoundContainer > div:nth-of-type(1)  {
+section.truck-ListEntry-StartOfListContainer > h1,
+section.truck-ListEntry-EndOfListContainer > h1  {
     font-size: 2.5rem;
 }
 
@@ -557,13 +624,13 @@ section.truck-ListEntryOpen-NotFoundContainer > div:nth-of-type(1)  {
 }
 
 @media (max-width: 400px) {
-ul.truck-ListOpen-FooterNavPopUpContainer > div > h1,
-ul.truck-ListOpen-FooterFilterPopUpContainer > div > h1 {
+li.overlay-Menu-Saying > h1,
+li.overlay-Menu-Saying > h1 {
     font-size: 2rem;
 }
 
-section.number-TrucksListedContainer > div,
-section.truck-ListEntryOpen-NotFoundContainer > div:nth-of-type(1)  {
+section.truck-ListEntry-StartOfListContainer > h1,
+section.truck-ListEntry-EndOfListContainer > h1  {
     font-size: 2rem;
 }
 
@@ -591,24 +658,22 @@ section.truck-ListEntryOpen-NotFoundContainer > div:nth-of-type(1)  {
 /*.truck-ListOpen-FooterFilterPopUp-FilterText {
 	font-size: .85rem;
 }*/
-ul.truck-ListOpen-FooterNavPopUpContainer > div > h1,
-ul.truck-ListOpen-FooterFilterPopUpContainer > div > h1 {
+li.overlay-Menu-Saying > h1,
+li.overlay-Menu-Saying > h1 {
     font-size: 1.75rem;
 }
 
-section.number-TrucksListedContainer > div,
-section.truck-ListEntryOpen-NotFoundContainer > div:nth-of-type(1)  {
+section.truck-ListEntry-StartOfListContainer > h1,
+section.truck-ListEntry-EndOfListContainer > h1  {
     font-size: 1.75rem;
 }
 
 .truck-ListEntryOpen-NotFoundText {
     font-size: 1.75rem;
 }
-ul.truck-ListOpen-FooterNavPopUpContainer > li > a > div,
-ul.truck-ListOpen-FooterFilterPopUpContainer > li > div > h1,
-ul.button-WhatsComingUpOuter > li > a > h1,
-ul.button-LandingPage > li > a > h1,
-ul.button-LoginRegister > li > a > h1 {
+
+li.button-Nav > div > h1,
+li.button-Nav > a > h1 {
     font-size: .95rem;
 }
 }

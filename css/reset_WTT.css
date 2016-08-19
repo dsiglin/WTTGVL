@@ -43,11 +43,24 @@ a {
    color: #adadad;  
 }
 
+.logo_WTT {
+    height: 300px;
+    width: 100%;
+    background-image: url("../img/WTT-Logo-dusk.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    /* padding: 48px 0 32px; */
+    border-top: 48px solid transparent;
+    border-bottom: 32px solid transparent;
+    /* margin: 48px auto 32px; */
+}
+
 
 /*/////////////////////////////////////////////////////*/
 /* MAIN BODY WRAPPER - KEEPS IT TO A MAX AND MIN WIDTH */
 
-.body-mobilewrapper {
+.body-Container {
   -webkit-box-flex-direction: column;
   -moz-box-flex-direction: column;
   -ms-flex-direction: column;
@@ -69,7 +82,7 @@ a {
 }
 
 @media (min-width: 605px) {
-  .body-mobilewrapper {
+  .body-Container {
   box-shadow: 0 0 20px 10px #333131;
 }
 }

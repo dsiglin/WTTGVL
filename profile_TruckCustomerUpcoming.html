@@ -36,18 +36,18 @@
 
 <body>
 <!-- FOOTER -->
-<section class="truck-ListOpen-FooterContainer">
-	<div class="truck-ListOpen-FooterSearchContainer">
+<section class="footer-OuterContainer">
+	<div class="footer-SearchContainer">
 		<form>
 			<span><input type="text" style="text-transform:uppercase" placeholder="SEARCH BY TRUCK NAME"></span>
 		</form>
 	</div>
-	<button type="button" class="truck-ListOpen-FooterFilterContainer">
+	<button type="button" class="footer-button-FilterMenu">
 		<h1 class="filtertext">
 			FILTERS
 		</h1>
 	</button>
-	<button type="button" class="truck-ListOpen-FooterNavMenuContainer">
+	<button type="button" class="footer-button-NavMenu">
 		<h1 class="navtext">
 			NAV
 		</h1>
@@ -63,47 +63,49 @@
 <!-- /FOOTER -->
 
 <!-- NAV POP UP -->
-<ul class="truck-ListOpen-FooterNavPopUpContainer" id="NavMenuPopUp">
-	<div>
+<section class="overlay-Menu" id="NavMenu">
+    <ul>
+	<li class="overlay-Menu-Saying">
 		<h1>
-			Don't forget to brush twice daily!
+			Don't forget to <br>brush twice daily!
 		</h1>
-	</div>
-	<li>
+	</li>
+	<li class="button-Nav">
 		<a href="WTT.html">
-			<div>
+			<h1>
 				Home
-			</div>
+			</h1>
 		</a>
 	</li>
-	<li>
+	<li class="button-Nav">
 		<a href="list_TruckOpen.html">
-			<div>
+			<h1>
 				What&#8217;s nearby
-			</div>
+			</h1>
 		</a>
 	</li>
-	<li>
+	<li class="button-Nav">
 		<a href="about.html">
-			<div>
+			<h1>
 				About where the truck
-			</div>
+			</h1>
 		</a>
 	</li>
-	<li>
+	<li class="button-Nav">
 		<a href="truckloginregister.html">
-			<div>
+			<h1>
 				Truck Login / Register
-			</div>
+			</h1>
 		</a>
 	</li>
-</ul>
+    </ul>
+</section>
 <!-- /NAV POP UP -->
 
 <!-- MAIN BODY -->
-<section class="body-mobilewrapper">
+<div class="body-Container">
 
-    <!-- Truck Profile Image -->
+    <!-- TRUCK PROFILE IMAGE -->
 	<section class="image-TruckPhotoContainer truck-ListUpcoming">
         <!-- Truck Profile Image Tint-->
 		<div></div>
@@ -114,13 +116,14 @@
 			</h1>
 		</div>
 	</section>
-    <!-- /Truck Profile Image -->
+    <!-- / TRUCK PROFILE IMAGE -->
 
+    <!-- TRUCK INFO SECTION -->
 	<section class="profile-FadeInUpSmall">
 
-        <!-- Truck List Profile -->
+        <!-- TRUCK ENTRY -->
         <section class="truck-ListEntry truck-Profile truck-ListUpcoming">
-		    <!-- Truck name and description -->
+		    <!-- TRUCK NAME AND DESCRIPTION -->
             <div>
                 <div>
                     <h1>
@@ -131,11 +134,12 @@
                     </h2>
                 </div>
             </div>
-		    <!-- / Truck name and description -->
+		    <!-- / TRUCK NAME AND DESCRIPTION -->
 
-		    <!-- Truck buttons and information -->
+		    <!-- TRUCK BUTTONS AND DIRECTIONS -->
             <div>
-                <!-- Menu Profile Direction buttons -->
+
+                <!-- MENU PROFILE DIRECTIONS BUTTONS -->
                 <div>
                     <a href="http://thoroughfarefoodtruck.com/menu/" target="_blank">
                         <h3>
@@ -153,27 +157,33 @@
                         </h3>
                     </a>
                 </div>
-                <!-- / Menu Profile Direction buttons -->
-                <!-- Distance Open Til information -->
+                <!-- / MENU PROFILE DIRECTIONS BUTTONS -->
+
+                <!-- DISTANCE TIME INFORMATION -->
                 <div>
-                    <!-- Distance to -->
+
+                    <!-- DISTANCE -->
                     <div>
                         <h4>5.75<span>mi</span></h4>
                     </div>
-                    <!-- / Distance to -->
-                    <!-- Time -->
+                    <!-- / DISTANCE -->
+
+                    <!-- TIME -->
                     <div>
                         <h4><span>til</span>12:45<span>AM</span></h4>
                     </div>
-                    <!-- / Time -->
-                </div>
-                <!-- / Distance Open Til information -->
-            </div>
-		<!-- / Truck buttons and information -->
-	    </section>
-        <!-- /Truck List Profile -->
+                    <!-- / TIME -->
 
-        <!-- Truck Social Buttons -->
+                </div>
+                <!-- / DISTANCE TIME INFORMATION -->
+
+            </div>
+		<!-- / TRUCK BUTTONS AND INFORMATION -->
+
+	    </section>
+        <!-- / TRUCK ENTRY -->
+
+        <!-- TRUCK SOCIAL BUTTONS -->
         <section class="profile-SocialContainer">
             <a href="#" class="twitter-logo">
             </a>
@@ -182,9 +192,9 @@
             <a href="#" class="instagram-logo">
             </a>
         </section>
-        <!-- /Truck Social Buttons -->
+        <!-- / TRUCK SOCIAL BUTTONS -->
 
-        <!-- Truck Schedule -->
+        <!-- TRUCK SCHEDULE -->
         <section class="profile-InfoAnnouncementContainer Schedule">
             <h1>Schedule</h1>
             <div>
@@ -227,9 +237,9 @@
             </div>
 
         </section>
-        <!-- /Truck Schedule -->
+        <!-- / TRUCK SCHEDULE -->
 
-        <!-- Truck Specials -->
+        <!-- TRUCK SPECIALS -->
         <section class="profile-InfoAnnouncementContainer">
             <h1>Specials</h1>
             <div>
@@ -237,9 +247,9 @@
                 <p>We are running a special for the week of December 13th. If you  buy one normal entree we will give you another for half off. That's less money and just as much flavor!</p>
             </div>
         </section>
-        <!-- /Truck Specials -->
+        <!-- / TRUCK SPECIALS -->
 
-        <!-- Truck Announcements -->
+        <!-- TRUCK ANNOUNCEMENTS -->
         <section class="profile-InfoAnnouncementContainer">
             <h1>Announcements</h1>
             <div>
@@ -247,9 +257,9 @@
                 <p>Euphoria is kicking off with a bang and we will be there to provide all your food truck needs. Find us over by the Peace Center from 10am til 11pm this coming Thursday.</p>
             </div>
         </section>
-        <!-- /Truck Announcements -->
+        <!-- / TRUCK ANNOUNCEMENTS -->
 
-        <!-- Truck About -->
+        <!-- TRUCK ABOUT -->
         <section class="profile-InfoAnnouncementContainer">
             <h1>About</h1>
             <div>
@@ -257,10 +267,12 @@
                 <p>With every bite of delicious roadkill, Nick's Roadkill Delight will delight you with it's slightly asphalt taste. Sure some other food trucks promise you fresher food but nothing comes close to that slow aged, sun baked goodness that only Nick's serves. You can always count on us to deliver the most unique and . . . interesting meal combinations.</p>
             </div>
         </section>
-        <!-- /Truck About -->
+        <!-- / TRUCK ABOUT -->
 
-    </section> <!-- / FADE IN UP SMALL -->
-</section>
+    </section>
+    <!-- / TRUCK INFO SECTION -->
+
+</div>
 <!-- /MAIN BODY -->
 
 <script type="text/javascript" src="js/index.js"></script>

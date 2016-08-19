@@ -35,18 +35,18 @@
 <body>
 
 <!-- FOOTER -->
-<section class="truck-ListOpen-FooterContainer">
-	<div class="truck-ListOpen-FooterSearchContainer">
+<section class="footer-OuterContainer">
+	<div class="footer-SearchContainer">
 		<form>
 			<span><input type="text" style="text-transform:uppercase" placeholder="SEARCH BY TRUCK NAME"></span>
 		</form>
 	</div>
-	<button type="button" class="truck-ListOpen-FooterFilterContainer">
+	<button type="button" class="footer-button-FilterMenu">
 		<h1 class="filtertext">
 			FILTERS
 		</h1>
 	</button>
-	<button type="button" class="truck-ListOpen-FooterNavMenuContainer">
+	<button type="button" class="footer-button-NavMenu">
 		<h1 class="navtext">
 			NAV
 		</h1>
@@ -62,93 +62,101 @@
 <!-- /FOOTER -->
 
 <!-- NAV POP UP -->
-<ul class="truck-ListOpen-FooterNavPopUpContainer" id="NavMenuPopUp">
-	<div>
+<section class="overlay-Menu" id="NavMenu">
+    <ul>
+	<li class="overlay-Menu-Saying">
 		<h1>
 			This is where the<Br>
 			rubber meets the road!
 		</h1>
-	</div>
-	<li>
+	</li>
+	<li class="button-Nav">
 		<a href="WTT.html">
-			<div>
+			<h1>
 				Home
-			</div>
+			</h1>
 		</a>
 	</li>
-	<li>
+	<li class="button-Nav">
 		<a href="list_TruckUpcoming.html">
-			<div>
+			<h1>
 				What&#8217;s nearby
-			</div>
+			</h1>
 		</a>
 	</li>
-	<li>
+	<li class="button-Nav">
 		<a href="about.html">
-			<div>
+			<h1>
 				About where the truck
-			</div>
+			</h1>
 		</a>
 	</li>
-	<li>
+	<li class="button-Nav">
 		<a href="truckloginregister.html">
-			<div>
+			<h1>
 				Truck Login / Register
-			</div>
+			</h1>
 		</a>
 	</li>
-</ul>
+    </ul>
+</section>
 <!-- /NAV POP UP -->
 
 <!-- FILTER POP UP -->
-<ul class="truck-ListOpen-FooterFilterPopUpContainer" id="FilterMenuPopUp">
-	<div>
+<section class="overlay-Menu" id="FilterMenu">
+    <ul>
+	<li class="overlay-Menu-Saying">
 		<h1>
 			This is where the<Br>
 			rubber meets the road!
 		</h1>
-	</div>
-	<li>
-		<div>
+	</li>
+	<li class="button-Nav">
+		<a href="#">
 			<h1>
 			SORT BY CLOSEST FIRST
 			</h1>
-		</div>
+		</a>
 	</li>
-	<li>
-		<div>
+	<li class="button-Nav">
+		<a href="#">
 			<h1>
 			SORT BY FARTHEST FIRST
 			</h1>
-		</div>
+		</a>
 	</li>
-	<li>
-		<div>
+	<li class="button-Nav">
+		<a href="#">
 			<h1>
 			SORT BY CLOSING SOONEST
 			</h1>
-		</div>
+		</a>
 	</li>
-	<li>
-		<div>
+	<li class="button-Nav">
+		<a href="#">
 			<h1>
 			SORT BY CLOSing LAST
 			</h1>
-		</div>
+		</a>
 	</li>
-</ul>
+    </ul>
+</section>
 <!-- /FILTER POP UP -->
 
 <!-- MAIN BODY -->
-<div class="body-mobilewrapper">
-	<section class="number-TrucksListedContainer">
-		<div>
+<div class="body-Container">
+
+    <!-- START OF LIST SAYING -->
+	<section class="truck-ListEntry-StartOfListContainer">
+		<h1>
 			Good things come<Br>
 			to those who wait.
-		</div>
+		</h1>
 	</section>
+    <!-- / START OF LIST SAYING -->
 
-	<section class="truck-ListEntry truck-ListUpcoming">
+	<!-- TRUCK ENTRY -->
+    <section class="truck-ListEntry truck-ListUpcoming">
 		<!-- Truck name and description -->
 		<div>
 			<a href="profile_TruckCustomer.html">
@@ -199,8 +207,10 @@
 		</div>
 		<!-- / Truck buttons and information -->
 	</section>
+    <!-- / TRUCK ENTRY -->
 
-	<section class="truck-ListEntry truck-ListUpcoming">
+	<!-- TRUCK ENTRY -->
+    <section class="truck-ListEntry truck-ListUpcoming">
 		<!-- Truck name and description -->
 		<div>
 			<a href="profile_TruckCustomerUpcoming.html">
@@ -251,8 +261,10 @@
 		</div>
 		<!-- / Truck buttons and information -->
 	</section>
+    <!-- / TRUCK ENTRY -->
 
-	<section class="truck-ListEntry truck-ListUpcoming">
+	<!-- TRUCK ENTRY -->
+    <section class="truck-ListEntry truck-ListUpcoming">
 		<!-- Truck name and description -->
 		<div>
 			<a href="profile_TruckCustomerUpcoming.html">
@@ -303,8 +315,10 @@
 		</div>
 		<!-- / Truck buttons and information -->
 	</section>
+    <!-- / TRUCK ENTRY -->
 
-	<section class="truck-ListEntry truck-ListUpcoming">
+	<!-- TRUCK ENTRY -->
+    <section class="truck-ListEntry truck-ListUpcoming">
 		<!-- Truck name and description -->
 		<div>
 			<a href="profile_TruckCustomerUpcoming.html">
@@ -355,22 +369,27 @@
 		</div>
 		<!-- / Truck buttons and information -->
 	</section>
+    <!-- / TRUCK ENTRY -->
 
-	<section class="truck-ListEntryOpen-NotFoundContainer">
-		<div>
+	<!-- END OF LIST NAV OPTION -->
+    <section class="truck-ListEntry-EndOfListContainer">
+		<h1>
 			Didn&#8217;t find what you were looking for? <br/> Check out &mdash;
-		</div>
+		</h1>
 
 		<ul class="button-WhatsComingUpOuter">
-			<li>
-				<a href="list_TruckOpen.html">
-					<h1>
-						What&#8217;s open now
-					</h1>
-				</a>
-			</li>
+            <li class="button-Nav">
+                <a href="list_TruckOpen.html">
+                    <h1>
+                        What&#8217;s open now
+                    </h1>
+                </a>
+            </li>
 		</ul>
 	</section>
+    <!-- / END OF LIST NAV OPTION -->
+
+</div>
 <!-- /MAIN BODY -->
 
 <script type="text/javascript" src="js/index.js"></script>
