@@ -46,18 +46,18 @@
 <body>
 
 <!-- FOOTER -->
-<section class="truck-ListOpen-FooterContainer">
-	<div class="truck-ListOpen-FooterSearchContainer">
+<section class="footer-OuterContainer">
+	<div class="footer-SearchContainer">
 		<form>
 			<span><input type="text" style="text-transform:uppercase" placeholder="SEARCH BY TRUCK NAME"></span>
 		</form>
 	</div>
-	<button type="button" class="truck-ListOpen-FooterFilterContainer">
+	<button type="button" class="footer-button-FilterMenu">
 		<h1 class="filtertext">
 			FILTERS
 		</h1>
 	</button>
-	<button type="button" class="truck-ListOpen-FooterNavMenuContainer">
+	<button type="button" class="footer-button-NavMenu">
 		<h1 class="navtext">
 			NAV
 		</h1>
@@ -73,52 +73,59 @@
 <!-- /FOOTER -->
 
 <!-- NAV POP UP -->
-<ul class="truck-ListOpen-FooterNavPopUpContainer" id="NavMenuPopUp">
-	<div>
+<ul class="overlay-Menu" id="NavMenu">
+	<li class="overlay-Menu-Saying">
 		<h1>
 			Grease and gravel<Br>
 	 		a winning combo!
 		</h1>
-	</div>
-	<li>
+	</li>
+	<li class="button-Nav">
 		<a href="WTT.html">
-			<div>
+			<h1>
 				Home
-			</div>
+			</h1>
 		</a>
 	</li>
-	<li>
+	<li class="button-Nav">
 		<a href="list_TruckOpen.html">
-			<div>
+			<h1>
 				What&#8217;s nearby
-			</div>
+			</h1>
 		</a>
 	</li>
-	<li>
+	<li class="button-Nav">
 		<a href="list_TruckUpcoming.html">
-			<div>
+			<h1>
 				What&#8217;s coming up
-			</div>
+			</h1>
 		</a>
 	</li>
-	<li>
+	<li class="button-Nav">
 		<a href="about.html">
-			<div>
+			<h1>
 				About where the truck
-			</div>
+			</h1>
 		</a>
 	</li>
 </ul>
 <!-- /NAV POP UP -->
 
 <!-- MAIN BODY -->
-<section class="body-mobilewrapper container-LandingPageBody">
+<div class="body-Container body-Container-LandingPage">
 
+	<!-- LOGO -->
+    <div class="logo_WTT">
+	</div>
+    <!-- / LOGO -->
+
+    <!-- LOGIN AND SIGN UP OUTER -->
 	<div class="field-Text">
-		<div id="mc_embed_signup">
-		<div class="image-TruckPhotoText">
-		Login
-		</div>
+
+        <!-- LOGIN AND SIGN UP INNER -->
+        <div id="mc_embed_signup">
+
+            <!-- LOGIN -->
 			<form target="_blank" novalidate>
 				<input type="email" value="" style="text-transform:uppercase"name="EMAIL" class="email" placeholder="username" required>
 			</form>
@@ -127,17 +134,22 @@
 				<input type="email" value="" style="text-transform:uppercase"name="EMAIL" class="username" placeholder="password" required>
 			</form>
 
-			<div class="button-NavContainerOuter">
-				<a href="#" class="button-NavContainerInner">
-					<div class="button-NavText" style="text-transform:uppercase">
-					login
-					</div>
-				</a>
-			</div>
 
-			<div class="image-TruckPhotoText">
-			or Register
-			</div>
+            <ul class="button-LoginRegister">
+                <li class="button-Nav">
+                    <a href="profile_TruckCustomer.html">
+                        <h1>
+                            Login
+                        </h1>
+                    </a>
+                </li>
+            </ul>
+            <!-- / LOGIN -->
+
+            <!-- REGISTER -->
+            <div class="image-TruckPhotoText">
+            or Register
+            </div>
 
 
 			<form  target="_blank" novalidate>
@@ -161,18 +173,25 @@
 				<input type="email" value="" style="text-transform:uppercase"name="EMAIL" class="username" placeholder="email address" required>
 			</form>
 
-			<div class="button-NavContainerOuter">
-				<a href="register_ThankYou.html" class="button-NavContainerInner">
-					<div class="button-NavText" style="text-transform:uppercase">
-					register
-					</div>
-				</a>
-			</div>
+
+            <ul class="button-LoginRegister">
+                <li class="button-Nav">
+                    <a href="register_ThankYou.html">
+                        <h1>
+                            Register
+                        </h1>
+                    </a>
+                </li>
+            </ul>
+            <!-- / REGISTER -->
 
 		</div>
-	</div>
+        <!-- / LOGIN AND SIGN UP INNER -->
 
-</section>
+	</div>
+    <!-- / LOGIN AND SIGN UP OUTER -->
+
+</div>
 <!-- /MAIN BODY -->
 
 <script type="text/javascript" src="js/index.js"></script>

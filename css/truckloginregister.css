@@ -16,7 +16,7 @@ blockquote {
     quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-.container-LandingPageBody {
+.body-Container-LandingPage {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -36,30 +36,30 @@ blockquote {
     margin: 0 auto;
 }
 
-.logo_WTT {
-	height: 200px;
-	width: 100%;
-	background-image: url("../img/WTT-Logo-dusk.svg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: bottom center;
-	margin: 0 auto 16px;
-	-webkit-animation-name: fadeInDown;
-	-moz-animation-name: fadeInDown;
-	-ms-animation-name: fadeInDown;
-	-o-animation-name: fadeInDown;
-	animation-name: fadeInDown;
-	-webkit-animation-duration: 1s;
-	-moz-animation-duration: 1s;
-	-ms-animation-duration: 1s;
-	-o-animation-duration: 1s;
-	animation-duration: 1s;
-	-webkit-filter: drop-shadow(0px 3px 4px #101216);
-	-moz-filter: drop-shadow(0px 3px 4px #101216);
-	-o-filter: drop-shadow(0px 3px 4px #101216);
-	-ms-filter: drop-shadow(0px 3px 4px #101216);
-	filter: drop-shadow(0px 3px 4px #101216);
-}
+/*.logo_WTT {*/
+	/*height: 200px;*/
+	/*width: 100%;*/
+	/*background-image: url("../img/WTT-Logo-dusk.svg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: contain;*/
+	/*background-position: bottom center;*/
+	/*margin: 0 auto 16px;*/
+	/*-webkit-animation-name: fadeInDown;*/
+	/*-moz-animation-name: fadeInDown;*/
+	/*-ms-animation-name: fadeInDown;*/
+	/*-o-animation-name: fadeInDown;*/
+	/*animation-name: fadeInDown;*/
+	/*-webkit-animation-duration: 1s;*/
+	/*-moz-animation-duration: 1s;*/
+	/*-ms-animation-duration: 1s;*/
+	/*-o-animation-duration: 1s;*/
+	/*animation-duration: 1s;*/
+	/*-webkit-filter: drop-shadow(0px 3px 4px #101216);*/
+	/*-moz-filter: drop-shadow(0px 3px 4px #101216);*/
+	/*-o-filter: drop-shadow(0px 3px 4px #101216);*/
+	/*-ms-filter: drop-shadow(0px 3px 4px #101216);*/
+	/*filter: drop-shadow(0px 3px 4px #101216);*/
+/*}*/
 
 .field-Text {
 	-webkit-animation-name: fadeInUp;
@@ -86,7 +86,7 @@ blockquote {
 	font: 3rem 'Lobster',Arial,sans-serif; 
 	text-align: center; 
 	color: #B6D3D8;
-	margin: 64px auto 16px auto;
+	margin: 16px auto;
 }
 
 form {
@@ -206,7 +206,7 @@ a.description-ContainerText {
 		font-size: 1.5rem;
 	}
 
-	.container-LandingPageBody {
+	.body-Container-LandingPage {
 	    padding: 0px 0 100px 0;
 	}
 }

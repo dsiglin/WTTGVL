@@ -233,6 +233,10 @@ section.profile-InfoAnnouncementContainer {
     justify-content: center;
 }
 
+section.profile-InfoAnnouncementContainer.register-ThankYou {
+    margin: 16px auto 0px;
+}
+
 section.profile-InfoAnnouncementContainer:last-of-type {
     padding-bottom: 128px;
 }
@@ -346,16 +350,16 @@ div.profile-FadeInUpSmall > div:nth-of-type(1) > h1 {
 }
 
 /* FOOTER HACKS */
-.truck-ListOpen-FooterSearchContainer {
+.footer-SearchContainer {
 	background-color: #2C2E35;
 }
 
-button.truck-ListOpen-FooterFilterContainer {
+button.footer-button-FilterMenu {
 	background-color: #333131;
 	box-shadow: 0px 0px 0px #101216;
 }
 
-.truck-ListOpen-FooterSearchContainer input{
+.footer-SearchContainer input{
 	height: 100%;
 	background-color: #333131;
 	border-right: 0px solid transparent;

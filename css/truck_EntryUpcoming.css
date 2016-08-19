@@ -117,7 +117,7 @@ a {
 }
 
 
-.number-TrucksListedContainer {
+.truck-ListEntry-StartOfListContainer {
 	width: 100%;
     height: auto;
     padding: 5vh 0 3vh 0;
@@ -699,7 +699,7 @@ a.truck-ListEntry-ButtonsDirectionsContainer:active {
 	margin-left: 3px;
 }
 
-.truck-ListEntryOpen-NotFoundContainer {
+.truck-ListEntry-EndOfListContainer {
 	width: 100%;
     height: auto;
     padding: 0 4vw;

@@ -57,7 +57,7 @@ jQuery(function(){
     /**
      * Event listener for the menu "nav" button
      */
-    $(".truck-ListOpen-FooterNavMenuContainer").click(function(){
+    $(".footer-button-NavMenu").click(function(){
         var $self = $(this);
 
         // Swap the menu button text
@@ -72,9 +72,9 @@ jQuery(function(){
         }
 
         // Show/Hide the Navigation Modal
-        $(".truck-ListOpen-FooterNavPopUpContainer").toggleClass("truck-ListOpen-FooterNavMenuPopUpContainer-Show");
-        $(".truck-ListOpen-FooterSearchContainer").toggleClass("opacity-Zero-NotClickable");
-        $(".truck-ListOpen-FooterFilterContainer").toggleClass("opacity-Zero-NotClickable");
+        $("#NavMenu").toggleClass("overlay-MenuShow");
+        $(".footer-SearchContainer").toggleClass("opacity-Zero-NotClickable");
+        $(".footer-button-FilterMenu").toggleClass("opacity-Zero-NotClickable");
         $(".button-navback").toggleClass("opacity-Zero-NotClickable");
         // $("body").toggleClass("overflow-Hidden");
 
@@ -84,7 +84,7 @@ jQuery(function(){
      * Event listener for menu "filter" button
      */
 
-    $(".truck-ListOpen-FooterFilterContainer").click(function(){
+    $(".footer-button-FilterMenu").click(function(){
         var $self = $(this);
 
         // Swap the filter button text
@@ -99,9 +99,9 @@ jQuery(function(){
         }
 
         // Show/Hide the Filter Modal
-        $(".truck-ListOpen-FooterFilterPopUpContainer").toggleClass("truck-ListOpen-FooterFilterPopUpContainer-Show");
-        $(".truck-ListOpen-FooterSearchContainer").toggleClass("opacity-Zero-NotClickable");
-        $(".truck-ListOpen-FooterNavMenuContainer").toggleClass("opacity-Zero-NotClickable");
+        $("#FilterMenu").toggleClass("overlay-MenuShow");
+        $(".footer-SearchContainer").toggleClass("opacity-Zero-NotClickable");
+        $(".footer-button-NavMenu").toggleClass("opacity-Zero-NotClickable");
         $(".button-navback").toggleClass("opacity-Zero-NotClickable");
         // $("body").toggleClass("overflow-Hidden");
 
